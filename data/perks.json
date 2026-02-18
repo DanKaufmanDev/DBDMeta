@@ -332,12 +332,12 @@
   "bittermurmur": {
     "name": "Bitter Murmur",
     "side": "Killer",
-    "description": "Unlocks potential in one's aura reading ability. Each time a generator is fully repaired, Survivors within {0} meters of the completed generator will be revealed for {1} seconds.When the last generator is fully repaired, all the Survivors' auras are revealed for {2} seconds.",
+    "description": "Unlocks potential in one's aura reading ability. Each time a generator is fully repaired, Survivors within 16 meters of the completed generator will be revealed for 5 seconds.When the last generator is fully repaired, all the Survivors' auras are revealed for {0} seconds.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        5,
+        7,
+        10
       ]
     ],
     "icon_file": "bitterMurmur.png"
