@@ -1,0 +1,26 @@
+name: Sync to DB
+
+on:
+  push:
+    paths:
+      - 'data/perks.json'
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv and Set up Python
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.10'
+          enable-cache: true
+
+      - name: Run Sync Script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          uv pip install supabase python-dotenv --system
+          python tools/syncJSONtoDB/main.py
