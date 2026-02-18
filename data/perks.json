@@ -345,12 +345,12 @@
   "blastmine": {
     "name": "Blast Mine",
     "side": "Survivor",
-    "description": "When direct combat isn't an option, you still find ways to strike back.Blast Mine activates after completing a total of {0}% worth of repair progress on generators.When standing next to a generator, press the Active Ability Button 2 to install a Blast Mine which stays active for {2} seconds.Affected generators will be revealed to all Survivors by a yellow aura. Only one Blast Mine can be active on a generator.When the Killer damages the generator, the Blast Mine explodes, stunning them and blinding anyone nearby.Blast Mine deactivates when the generator is damaged by the Killer or when the timer expires.",
+    "description": "When direct combat isn't an option, you still find ways to strike back.Blast Mine activates after completing a total of 40% worth of repair progress on generators.When standing next to a generator, press the Active Ability Button 2 to install a Blast Mine which stays active for {0} seconds.Affected generators will be revealed to all Survivors by a yellow aura. Only one Blast Mine can be active on a generator.When the Killer damages the generator, the Blast Mine explodes, stunning them and blinding anyone nearby.Blast Mine deactivates when the generator is damaged by the Killer or when the timer expires.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        100,
+        110,
+        120
       ]
     ],
     "icon_file": "blastMine.png"
