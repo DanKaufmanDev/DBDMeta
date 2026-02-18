@@ -322,9 +322,9 @@
     "description": "Pain hurts you as much as anyone, but you'd prefer others don't know that.When healing, you and the Survivor you're healing make no noise, including grunts of pain. There is no noise notification on failed healing Skill Checks and healing regresses by only {0}%.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        3,
+        2,
+        1
       ]
     ],
     "icon_file": "biteTheBullet.png"
