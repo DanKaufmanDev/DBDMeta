@@ -23,4 +23,4 @@ jobs:
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: |
           uv pip install supabase python-dotenv
-          python tools/syncJSONtoDB/main.py
+          python tools/syncperks/main.py
