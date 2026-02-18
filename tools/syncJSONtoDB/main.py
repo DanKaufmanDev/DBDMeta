@@ -8,7 +8,7 @@ load_dotenv()
 # --- Configuration ---
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-JSON_PATH = "../../data/perks.json"
+JSON_PATH = "data/perks.json"
 
 GITHUB_USER = "DanKaufmanDev"
 GITHUB_REPO = "DBDMeta"
