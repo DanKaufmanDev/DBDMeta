@@ -826,12 +826,12 @@
   "dancewithme": {
     "name": "Dance With Me",
     "side": "Survivor",
-    "description": "When performing a rushed vault or leaving a locker in a sprint, you leave no scratch marks for {0} seconds.Dance With Me has a cooldown of {1} seconds.",
+    "description": "When performing a rushed vault or leaving a locker in a sprint, you leave no scratch marks for 5 seconds. Dance With Me has a cooldown of {0} seconds.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        25,
+        20,
+        15
       ]
     ],
     "icon_file": "danceWithMe.png"
@@ -839,12 +839,12 @@
   "darkarrogance": {
     "name": "Dark Arrogance",
     "side": "Killer",
-    "description": "When everything is going right, you are an inescapable inevitability.Increases the duration you are blinded by any means and the duration of pallet stuns by {0}%.Increases regular vault speed by {1}%.“Run all you want. I will not be denied.” - Vecna",
+    "description": "When everything is going right, you are an inescapable inevitability. Increases the duration you are blinded by any means and the duration of pallet stuns by 15%. Increases regular vault speed by {0}%. “Run all you want. I will not be denied.” - Vecna",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        15,
+        20,
+        25
       ]
     ],
     "icon_file": "darkArrogance.png"
@@ -852,12 +852,12 @@
   "darkdevotion": {
     "name": "Dark Devotion",
     "side": "Killer",
-    "description": "The display of your powers creates a whirlwind of panic that spreads throughout the land.You become obsessed with one Survivor. When the Obsession loses a health state, your Terror Radius transfers to the Obsession for {1} seconds, and its radius is set to {0} meters.You are granted the Undetectable status effect for the duration.The Survivor with the transferred Terror Radius is also considered to be \"inside the Terror Radius\" for other purposes.The Killer can only be obsessed with one Survivor at a time.Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
+    "description": "The display of your powers creates a whirlwind of panic that spreads throughout the land. You become obsessed with one Survivor. When the Obsession loses a health state, your Terror Radius transfers to the Obsession for {0} seconds, and its radius is set to 40 meters. You are granted the Undetectable status effect for the duration. The Survivor with the transferred Terror Radius is also considered to be \"inside the Terror Radius\" for other purposes.The Killer can only be obsessed with one Survivor at a time. Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        35,
+        40,
+        45
       ]
     ],
     "icon_file": "darkDevotion.png"
@@ -865,12 +865,12 @@
   "darksense": {
     "name": "Dark Sense",
     "side": "Survivor",
-    "description": "Unlocks potential in one's aura reading ability.Each time a generator is completed, Dark Sense activates.While Dark Sense is active, the Killer entering a 24-meter radius around you reveals their aura for {0} seconds.Once the aura's duration expires, Dark Sense deactivates.",
+    "description": "Unlocks potential in one's aura reading ability. Each time a generator is completed, Dark Sense activates. While Dark Sense is active, the Killer entering a 24-meter radius around you reveals their aura for {0} seconds. Once the aura's duration expires, Dark Sense deactivates.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        5,
+        7,
+        10
       ]
     ],
     "icon_file": "darkSense.png"
@@ -878,12 +878,12 @@
   "darknessrevealed": {
     "name": "Darkness Revealed",
     "side": "Killer",
-    "description": "In your presence, places once thought to be safe are perhaps the most dangerous.When you search a locker, the auras of all Survivors within {2} meters of any lockers are revealed to you for {0} seconds.Darkness Revealed has a cooldown of {1} seconds.",
+    "description": "In your presence, places once thought to be safe are perhaps the most dangerous. When you search a locker, the auras of all Survivors within 8 meters of any lockers are revealed to you for {0} seconds. Darkness Revealed has a cooldown of 30 seconds.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        6,
+        7,
+        8
       ]
     ],
     "icon_file": "darknessRevealed.png"
@@ -891,12 +891,12 @@
   "deadhard": {
     "name": "Dead Hard",
     "side": "Survivor",
-    "description": "You can take a beating.Dead hard activates after you are unhooked or unhook yourself.When injured, tap into your adrenaline bank to avoid incoming damage. Press the Active Ability Button 1 while running to gain the Endurance status effect for the next 0.5 seconds.Causes the Exhausted status effect for {0} seconds.Dead Hard then deactivates.Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.Exhausted prevents survivors from activating exhausting perks.",
+    "description": "You can take a beating. Dead hard activates after you are unhooked or unhook yourself. When injured, tap into your adrenaline bank to avoid incoming damage. Press the Active Ability Button 1 while running to gain the Endurance status effect for the next 0.5 seconds. Causes the Exhausted status effect for {0} seconds. Dead Hard then deactivates. Endurance prevents a Survivor from being downed, inflicting Deep Wound instead. Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out. Exhausted prevents survivors from activating exhausting perks.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        60,
+        50,
+        40
       ]
     ],
     "icon_file": "deadHard.png"
@@ -907,9 +907,9 @@
     "description": "When you hook a Survivor, Dead Man's Switch activates. The first Survivor that stops repairing a generator causes The Entity to block it for {0} seconds.The affected generator is highlighted by a white aura.Dead Man's Switch cannot reactivate while it is blocking a generator.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        25,
+        30,
+        35
       ]
     ],
     "icon_file": "deadMansSwitch.png"
