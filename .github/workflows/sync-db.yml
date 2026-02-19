@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'data/perks.json'
+      - 'data/characters.json'
 
 jobs:
   update-db:
@@ -11,16 +12,34 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            perks:
+              - 'data/perks.json'
+            characters:
+              - 'data/characters.json'
+
       - name: Install uv and Set up Python
         uses: astral-sh/setup-uv@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
           enable-cache: true
 
-      - name: Run Sync Script
+      - name: Run Sync Scripts
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
         run: |
           uv pip install supabase python-dotenv
-          python tools/syncperks/main.py
+          
+          # Conditional logic using the filter outputs
+          if [ "${{ steps.filter.outputs.perks }}" == 'true' ]; then
+            python tools/syncperks/main.py
+          fi
+          
+          if [ "${{ steps.filter.outputs.characters }}" == 'true' ]; then
+            python tools/synccharacters/main.py
+          fi
