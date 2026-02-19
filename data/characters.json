@@ -1,0 +1,644 @@
+{
+  "trapper": {
+    "name": "The Trapper",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "trapper.webp",
+    "store_url": "trapper.webp"
+  },
+  "wraith": {
+    "name": "The Wraith",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "wraith.webp",
+    "store_url": "wraith.webp"
+  },
+  "hillbilly": {
+    "name": "The Hillbilly",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "hillbilly.webp",
+    "store_url": "hillbilly.webp"
+  },
+  "nurse": {
+    "name": "The Nurse",
+    "role": "Killer",
+    "speed": "3.85m/s",
+    "radius": "32m",
+    "portrait_url": "nurse.webp",
+    "store_url": "nurse.webp"
+  },
+  "shape": {
+    "name": "The Shape",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "shape.webp",
+    "store_url": "shape.webp"
+  },
+  "hag": {
+    "name": "The Hag",
+    "role": "Killer",
+    "speed": "4.4m/s",
+    "radius": "24m",
+    "portrait_url": "hag.webp",
+    "store_url": "hag.webp"
+  },
+  "doctor": {
+    "name": "The Doctor",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "doctor.webp",
+    "store_url": "doctor.webp"
+  },
+  "huntress": {
+    "name": "The Huntress",
+    "role": "Killer",
+    "speed": "4.4m/s",
+    "radius": "20m",
+    "portrait_url": "huntress.webp",
+    "store_url": "huntress.webp"
+  },
+  "cannibal": {
+    "name": "The Cannibal",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "cannibal.webp",
+    "store_url": "cannibal.webp"
+  },
+  "nightmare": {
+    "name": "The Nightmare",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "nightmare.webp",
+    "store_url": "nightmare.webp"
+  },
+  "pig": {
+    "name": "The Pig",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "24m",
+    "portrait_url": "pig.webp",
+    "store_url": "pig.webp"
+  },
+  "clown": {
+    "name": "The Clown",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "clown.webp",
+    "store_url": "clown.webp"
+  },
+  "spirit": {
+    "name": "The Spirit",
+    "role": "Killer",
+    "speed": "4.4m/s",
+    "radius": "24m",
+    "portrait_url": "spirit.webp",
+    "store_url": "spirit.webp"
+  },
+  "legion": {
+    "name": "The Legion",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "legion.webp",
+    "store_url": "legion.webp"
+  },
+  "plague": {
+    "name": "The Plague",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "plague.webp",
+    "store_url": "plague.webp"
+  },
+  "ghostface": {
+    "name": "The Ghostface",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "24m",
+    "portrait_url": "ghostface.webp",
+    "store_url": "ghostface.webp"
+  },
+  "demogorgon": {
+    "name": "The Demogorgon",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "demogorgon.webp",
+    "store_url": "demogorgon.webp"
+  },
+  "oni": {
+    "name": "The Oni",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "oni.webp",
+    "store_url": "oni.webp"
+  },
+  "deathslinger": {
+    "name": "The Deathslinger",
+    "role": "Killer",
+    "speed": "4.4m/s",
+    "radius": "32m",
+    "portrait_url": "deathslinger.webp",
+    "store_url": "deathslinger.webp"
+  },
+  "executioner": {
+    "name": "The Executioner",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "executioner.webp",
+    "store_url": "executioner.webp"
+  },
+  "blight": {
+    "name": "The Blight",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "40m",
+    "portrait_url": "blight.webp",
+    "store_url": "blight.webp"
+  },
+  "twins": {
+    "name": "The Twins",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "twins.webp",
+    "store_url": "twins.webp"
+  },
+  "trickster": {
+    "name": "The Trickster",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "trickster.webp",
+    "store_url": "trickster.webp"
+  },
+  "nemesis": {
+    "name": "The Nemesis",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "nemesis.webp",
+    "store_url": "nemesis.webp"
+  },
+  "cenobite": {
+    "name": "The Cenobite",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "cenobite.webp",
+    "store_url": "cenobite.webp"
+  },
+  "artist": {
+    "name": "The Artist",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "artist.webp",
+    "store_url": "artist.webp"
+  },
+  "onryo": {
+    "name": "The Onryō",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "24m",
+    "portrait_url": "onryo.webp",
+    "store_url": "onryo.webp"
+  },
+  "dredge": {
+    "name": "The Dredge",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "dredge.webp",
+    "store_url": "dredge.webp"
+  },
+  "mastermind": {
+    "name": "The Mastermind",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "40m",
+    "portrait_url": "mastermind.webp",
+    "store_url": "mastermind.webp"
+  },
+  "knight": {
+    "name": "The Knight",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "knight.webp",
+    "store_url": "knight.webp"
+  },
+  "skullmerchant": {
+    "name": "The Skull Merchant",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "24m",
+    "portrait_url": "skullmerchant.webp",
+    "store_url": "skullmerchant.webp"
+  },
+  "singularity": {
+    "name": "The Singularity",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "singularity.webp",
+    "store_url": "singularity.webp"
+  },
+  "xenomorph": {
+    "name": "The Xenomorph",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "xenomorph.webp",
+    "store_url": "xenomorph.webp"
+  },
+  "goodguy": {
+    "name": "The Good Guy",
+    "role": "Killer",
+    "speed": "4.4m/s",
+    "radius": "32m",
+    "portrait_url": "goodguy.webp",
+    "store_url": "goodguy.webp"
+  },
+  "unknown": {
+    "name": "The Unknown",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "unknown.webp",
+    "store_url": "unknown.webp"
+  },
+  "lich": {
+    "name": "The Lich",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "lich.webp",
+    "store_url": "lich.webp"
+  },
+  "darklord": {
+    "name": "The Dark Lord",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "darklord.webp",
+    "store_url": "darklord.webp"
+  },
+  "houndmaster": {
+    "name": "The Houndmaster",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "houndmaster.webp",
+    "store_url": "houndmaster.webp"
+  },
+  "ghoul": {
+    "name": "The Ghoul",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "40m",
+    "portrait_url": "ghoul.webp",
+    "store_url": "ghoul.webp"
+  },
+  "animatronic": {
+    "name": "The Animatronic",
+    "role": "Killer",
+    "speed": "4.4m/s",
+    "radius": "24m",
+    "portrait_url": "animatronic.webp",
+    "store_url": "animatronic.webp"
+  },
+  "krasue": {
+    "name": "The Krasue",
+    "role": "Killer",
+    "speed": "4.6m/s",
+    "radius": "32m",
+    "portrait_url": "krasue.webp",
+    "store_url": "krasue.webp"
+  },
+  "first": {
+    "name": "The First",
+    "role": "Killer",
+    "speed": "4.4m/s",
+    "radius": "32m",
+    "portrait_url": "first.webp",
+    "store_url": "first.webp"
+  },
+  "dwightfairfield": {
+    "name": "Dwight Fairfield",
+    "role": "Survivor",
+    "portrait_url": "dwightfairfield.webp",
+    "store_url": "dwightfairfield.webp"
+  },
+  "megthomas": {
+    "name": "Meg Thomas",
+    "role": "Survivor",
+    "portrait_url": "megthomas.webp",
+    "store_url": "megthomas.webp"
+  },
+  "claudettemorel": {
+    "name": "Claudette Morel",
+    "role": "Survivor",
+    "portrait_url": "claudettemorel.webp",
+    "store_url": "claudettemorel.webp"
+  },
+  "jakepark": {
+    "name": "Jake Park",
+    "role": "Survivor",
+    "portrait_url": "jakepark.webp",
+    "store_url": "jakepark.webp"
+  },
+  "neakarlsson": {
+    "name": "Nea Karlsson",
+    "role": "Survivor",
+    "portrait_url": "neakarlsson.webp",
+    "store_url": "neakarlsson.webp"
+  },
+  "lauriestrode": {
+    "name": "Laurie Strode",
+    "role": "Survivor",
+    "portrait_url": "lauriestrode.webp",
+    "store_url": "lauriestrode.webp"
+  },
+  "acevisconti": {
+    "name": "Ace Visconti",
+    "role": "Survivor",
+    "portrait_url": "acevisconti.webp",
+    "store_url": "acevisconti.webp"
+  },
+  "billoverbeck": {
+    "name": "Bill Overbeck",
+    "role": "Survivor",
+    "portrait_url": "billoverbeck.webp",
+    "store_url": "billoverbeck.webp"
+  },
+  "fengmin": {
+    "name": "Feng Min",
+    "role": "Survivor",
+    "portrait_url": "fengmin.webp",
+    "store_url": "fengmin.webp"
+  },
+  "davidking": {
+    "name": "David King",
+    "role": "Survivor",
+    "portrait_url": "davidking.webp",
+    "store_url": "davidking.webp"
+  },
+  "quentinsmith": {
+    "name": "Quentin Smith",
+    "role": "Survivor",
+    "portrait_url": "quentinsmith.webp",
+    "store_url": "quentinsmith.webp"
+  },
+  "davidtapp": {
+    "name": "David Tapp",
+    "role": "Survivor",
+    "portrait_url": "davidtapp.webp",
+    "store_url": "davidtapp.webp"
+  },
+  "katedenson": {
+    "name": "Kate Denson",
+    "role": "Survivor",
+    "portrait_url": "katedenson.webp",
+    "store_url": "katedenson.webp"
+  },
+  "adamfrancis": {
+    "name": "Adam Francis",
+    "role": "Survivor",
+    "portrait_url": "adamfrancis.webp",
+    "store_url": "adamfrancis.webp"
+  },
+  "jeffjohansen": {
+    "name": "Jeff Johansen",
+    "role": "Survivor",
+    "portrait_url": "jeffjohansen.webp",
+    "store_url": "jeffjohansen.webp"
+  },
+  "janeromero": {
+    "name": "Jane Romero",
+    "role": "Survivor",
+    "portrait_url": "janeromero.webp",
+    "store_url": "janeromero.webp"
+  },
+  "ashwilliams": {
+    "name": "Ash Williams",
+    "role": "Survivor",
+    "portrait_url": "ashwilliams.webp",
+    "store_url": "ashwilliams.webp"
+  },
+  "nancywheeler": {
+    "name": "Nancy Wheeler",
+    "role": "Survivor",
+    "portrait_url": "nancywheeler.webp",
+    "store_url": "nancywheeler.webp"
+  },
+  "steveharrington": {
+    "name": "Steve Harrington",
+    "role": "Survivor",
+    "portrait_url": "steveharrington.webp",
+    "store_url": "steveharrington.webp"
+  },
+  "yuikimura": {
+    "name": "Yui Kimura",
+    "role": "Survivor",
+    "portrait_url": "yuikimura.webp",
+    "store_url": "yuikimura.webp"
+  },
+  "zarinakassir": {
+    "name": "Zarina Kassir",
+    "role": "Survivor",
+    "portrait_url": "zarinakassir.webp",
+    "store_url": "zarinakassir.webp"
+  },
+  "cherylmason": {
+    "name": "Cheryl Mason",
+    "role": "Survivor",
+    "portrait_url": "cherylmason.webp",
+    "store_url": "cherylmason.webp"
+  },
+  "felixrichter": {
+    "name": "Felix Richter",
+    "role": "Survivor",
+    "portrait_url": "felixrichter.webp",
+    "store_url": "felixrichter.webp"
+  },
+  "elodierakoto": {
+    "name": "Élodie Rakoto",
+    "role": "Survivor",
+    "portrait_url": "elodierakoto.webp",
+    "store_url": "elodierakoto.webp"
+  },
+  "yunjinlee": {
+    "name": "Yun-Jin Lee",
+    "role": "Survivor",
+    "portrait_url": "yunjinlee.webp",
+    "store_url": "yunjinlee.webp"
+  },
+  "jillvalentine": {
+    "name": "Jill Valentine",
+    "role": "Survivor",
+    "portrait_url": "jillvalentine.webp",
+    "store_url": "jillvalentine.webp"
+  },
+  "leonskennedy": {
+    "name": "Leon Scott Kennedy",
+    "role": "Survivor",
+    "portrait_url": "leonskennedy.webp",
+    "store_url": "leonskennedy.webp"
+  },
+  "mikaelareid": {
+    "name": "Mikaela Reid",
+    "role": "Survivor",
+    "portrait_url": "mikaelareid.webp",
+    "store_url": "mikaelareid.webp"
+  },
+  "jonahvasquez": {
+    "name": "Jonah Vasquez",
+    "role": "Survivor",
+    "portrait_url": "jonahvasquez.webp",
+    "store_url": "jonahvasquez.webp"
+  },
+  "yoichiasakawa": {
+    "name": "Yoichi Asakawa",
+    "role": "Survivor",
+    "portrait_url": "yoichiasakawa.webp",
+    "store_url": "yoichiasakawa.webp"
+  },
+  "haddiekaur": {
+    "name": "Haddie Kaur",
+    "role": "Survivor",
+    "portrait_url": "haddiekaur.webp",
+    "store_url": "haddiekaur.webp"
+  },
+  "adawong": {
+    "name": "Ada Wong",
+    "role": "Survivor",
+    "portrait_url": "adawong.webp",
+    "store_url": "adawong.webp"
+  },
+  "rebeccachambers": {
+    "name": "Rebecca Chambers",
+    "role": "Survivor",
+    "portrait_url": "rebeccachambers.webp",
+    "store_url": "rebeccachambers.webp"
+  },
+  "vittoriotoscano": {
+    "name": "Vittorio Toscano",
+    "role": "Survivor",
+    "portrait_url": "vittoriotoscano.webp",
+    "store_url": "vittoriotoscano.webp"
+  },
+  "thalitalyra": {
+    "name": "Thalita Lyra",
+    "role": "Survivor",
+    "portrait_url": "thalitalyra.webp",
+    "store_url": "thalitalyra.webp"
+  },
+  "renatolyra": {
+    "name": "Renato Lyra",
+    "role": "Survivor",
+    "portrait_url": "renatolyra.webp",
+    "store_url": "renatolyra.webp"
+  },
+  "gabrielsoma": {
+    "name": "Gabriel Soma",
+    "role": "Survivor",
+    "portrait_url": "gabrielsoma.webp",
+    "store_url": "gabrielsoma.webp"
+  },
+  "nicolascage": {
+    "name": "Nicolas Cage",
+    "role": "Survivor",
+    "portrait_url": "nicolascage.webp",
+    "store_url": "nicolascage.webp"
+  },
+  "ellenripley": {
+    "name": "Ellen Ripley",
+    "role": "Survivor",
+    "portrait_url": "ellenripley.webp",
+    "store_url": "ellenripley.webp"
+  },
+  "alanwake": {
+    "name": "Alan Wake",
+    "role": "Survivor",
+    "portrait_url": "alanwake.webp",
+    "store_url": "alanwake.webp"
+  },
+  "sableward": {
+    "name": "Sable Ward",
+    "role": "Survivor",
+    "portrait_url": "sableward.webp",
+    "store_url": "sableward.webp"
+  },
+  "troupe": {
+    "name": "Aestri Yazar & Baermar Uraz",
+    "role": "Survivor",
+    "portrait_url": "troupe.webp",
+    "store_url": "troupe.webp"
+  },
+  "laracroft": {
+    "name": "Lara Croft",
+    "role": "Survivor",
+    "portrait_url": "laracroft.webp",
+    "store_url": "laracroft.webp"
+  },
+  "trevorbelmont": {
+    "name": "Trevor Belmont",
+    "role": "Survivor",
+    "portrait_url": "trevorbelmont.webp",
+    "store_url": "trevorbelmont.webp"
+  },
+  "tauriecain": {
+    "name": "Taurie Cain",
+    "role": "Survivor",
+    "portrait_url": "tauriecain.webp",
+    "store_url": "tauriecain.webp"
+  },
+  "orelarose": {
+    "name": "Orela Rose",
+    "role": "Survivor",
+    "portrait_url": "orelarose.webp",
+    "store_url": "orelarose.webp"
+  },
+  "rickgrimes": {
+    "name": "Rick Grimes",
+    "role": "Survivor",
+    "portrait_url": "rickgrimes.webp",
+    "store_url": "rickgrimes.webp"
+  },
+  "michonnegrimes": {
+    "name": "Michonne Grimes",
+    "role": "Survivor",
+    "portrait_url": "michonnegrimes.webp",
+    "store_url": "michonnegrimes.webp"
+  },
+  "veeboonyasak": {
+    "name": "Vee Boonyasak",
+    "role": "Survivor",
+    "portrait_url": "veeboonyasak.webp",
+    "store_url": "veeboonyasak.webp"
+  },
+  "dustinhenderson": {
+    "name": "Dustin Henderson",
+    "role": "Survivor",
+    "portrait_url": "dustinhenderson.webp",
+    "store_url": "dustinhenderson.webp"
+  },
+  "eleven": {
+    "name": "Eleven",
+    "role": "Survivor",
+    "portrait_url": "eleven.webp",
+    "store_url": "eleven.webp"
+  }
+}
