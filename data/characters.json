@@ -2,7 +2,7 @@
   "trapper": {
     "name": "The Trapper",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "trapper.webp",
     "store_url": "trapper.webp"
@@ -10,7 +10,7 @@
   "wraith": {
     "name": "The Wraith",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "wraith.webp",
     "store_url": "wraith.webp"
@@ -18,7 +18,7 @@
   "hillbilly": {
     "name": "The Hillbilly",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "hillbilly.webp",
     "store_url": "hillbilly.webp"
@@ -26,7 +26,7 @@
   "nurse": {
     "name": "The Nurse",
     "role": "Killer",
-    "speed": "3.85m/s",
+    "speed": "3.85",
     "radius": "32m",
     "portrait_url": "nurse.webp",
     "store_url": "nurse.webp"
@@ -34,7 +34,7 @@
   "shape": {
     "name": "The Shape",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "shape.webp",
     "store_url": "shape.webp"
@@ -42,7 +42,7 @@
   "hag": {
     "name": "The Hag",
     "role": "Killer",
-    "speed": "4.4m/s",
+    "speed": "4.4",
     "radius": "24m",
     "portrait_url": "hag.webp",
     "store_url": "hag.webp"
@@ -50,7 +50,7 @@
   "doctor": {
     "name": "The Doctor",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "doctor.webp",
     "store_url": "doctor.webp"
@@ -58,7 +58,7 @@
   "huntress": {
     "name": "The Huntress",
     "role": "Killer",
-    "speed": "4.4m/s",
+    "speed": "4.4",
     "radius": "20m",
     "portrait_url": "huntress.webp",
     "store_url": "huntress.webp"
@@ -66,7 +66,7 @@
   "cannibal": {
     "name": "The Cannibal",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "cannibal.webp",
     "store_url": "cannibal.webp"
@@ -74,7 +74,7 @@
   "nightmare": {
     "name": "The Nightmare",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "nightmare.webp",
     "store_url": "nightmare.webp"
@@ -82,7 +82,7 @@
   "pig": {
     "name": "The Pig",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "24m",
     "portrait_url": "pig.webp",
     "store_url": "pig.webp"
@@ -90,7 +90,7 @@
   "clown": {
     "name": "The Clown",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "clown.webp",
     "store_url": "clown.webp"
@@ -98,7 +98,7 @@
   "spirit": {
     "name": "The Spirit",
     "role": "Killer",
-    "speed": "4.4m/s",
+    "speed": "4.4",
     "radius": "24m",
     "portrait_url": "spirit.webp",
     "store_url": "spirit.webp"
@@ -106,7 +106,7 @@
   "legion": {
     "name": "The Legion",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "legion.webp",
     "store_url": "legion.webp"
@@ -114,7 +114,7 @@
   "plague": {
     "name": "The Plague",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "plague.webp",
     "store_url": "plague.webp"
@@ -122,7 +122,7 @@
   "ghostface": {
     "name": "The Ghostface",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "24m",
     "portrait_url": "ghostface.webp",
     "store_url": "ghostface.webp"
@@ -130,7 +130,7 @@
   "demogorgon": {
     "name": "The Demogorgon",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "demogorgon.webp",
     "store_url": "demogorgon.webp"
@@ -138,7 +138,7 @@
   "oni": {
     "name": "The Oni",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "oni.webp",
     "store_url": "oni.webp"
@@ -146,7 +146,7 @@
   "deathslinger": {
     "name": "The Deathslinger",
     "role": "Killer",
-    "speed": "4.4m/s",
+    "speed": "4.4",
     "radius": "32m",
     "portrait_url": "deathslinger.webp",
     "store_url": "deathslinger.webp"
@@ -154,7 +154,7 @@
   "executioner": {
     "name": "The Executioner",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "executioner.webp",
     "store_url": "executioner.webp"
@@ -162,7 +162,7 @@
   "blight": {
     "name": "The Blight",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "40m",
     "portrait_url": "blight.webp",
     "store_url": "blight.webp"
@@ -170,7 +170,7 @@
   "twins": {
     "name": "The Twins",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "twins.webp",
     "store_url": "twins.webp"
@@ -178,7 +178,7 @@
   "trickster": {
     "name": "The Trickster",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "trickster.webp",
     "store_url": "trickster.webp"
@@ -186,7 +186,7 @@
   "nemesis": {
     "name": "The Nemesis",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "nemesis.webp",
     "store_url": "nemesis.webp"
@@ -194,7 +194,7 @@
   "cenobite": {
     "name": "The Cenobite",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "cenobite.webp",
     "store_url": "cenobite.webp"
@@ -202,7 +202,7 @@
   "artist": {
     "name": "The Artist",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "artist.webp",
     "store_url": "artist.webp"
@@ -210,7 +210,7 @@
   "onryo": {
     "name": "The Onryō",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "24m",
     "portrait_url": "onryo.webp",
     "store_url": "onryo.webp"
@@ -218,7 +218,7 @@
   "dredge": {
     "name": "The Dredge",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "dredge.webp",
     "store_url": "dredge.webp"
@@ -226,7 +226,7 @@
   "mastermind": {
     "name": "The Mastermind",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "40m",
     "portrait_url": "mastermind.webp",
     "store_url": "mastermind.webp"
@@ -234,7 +234,7 @@
   "knight": {
     "name": "The Knight",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "knight.webp",
     "store_url": "knight.webp"
@@ -242,7 +242,7 @@
   "skullmerchant": {
     "name": "The Skull Merchant",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "24m",
     "portrait_url": "skullmerchant.webp",
     "store_url": "skullmerchant.webp"
@@ -250,7 +250,7 @@
   "singularity": {
     "name": "The Singularity",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "singularity.webp",
     "store_url": "singularity.webp"
@@ -258,7 +258,7 @@
   "xenomorph": {
     "name": "The Xenomorph",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "xenomorph.webp",
     "store_url": "xenomorph.webp"
@@ -266,7 +266,7 @@
   "goodguy": {
     "name": "The Good Guy",
     "role": "Killer",
-    "speed": "4.4m/s",
+    "speed": "4.4",
     "radius": "32m",
     "portrait_url": "goodguy.webp",
     "store_url": "goodguy.webp"
@@ -274,7 +274,7 @@
   "unknown": {
     "name": "The Unknown",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "unknown.webp",
     "store_url": "unknown.webp"
@@ -282,7 +282,7 @@
   "lich": {
     "name": "The Lich",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "lich.webp",
     "store_url": "lich.webp"
@@ -290,7 +290,7 @@
   "darklord": {
     "name": "The Dark Lord",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "darklord.webp",
     "store_url": "darklord.webp"
@@ -298,7 +298,7 @@
   "houndmaster": {
     "name": "The Houndmaster",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "houndmaster.webp",
     "store_url": "houndmaster.webp"
@@ -306,7 +306,7 @@
   "ghoul": {
     "name": "The Ghoul",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "40m",
     "portrait_url": "ghoul.webp",
     "store_url": "ghoul.webp"
@@ -314,7 +314,7 @@
   "animatronic": {
     "name": "The Animatronic",
     "role": "Killer",
-    "speed": "4.4m/s",
+    "speed": "4.4",
     "radius": "24m",
     "portrait_url": "animatronic.webp",
     "store_url": "animatronic.webp"
@@ -322,7 +322,7 @@
   "krasue": {
     "name": "The Krasue",
     "role": "Killer",
-    "speed": "4.6m/s",
+    "speed": "4.6",
     "radius": "32m",
     "portrait_url": "krasue.webp",
     "store_url": "krasue.webp"
@@ -330,7 +330,7 @@
   "first": {
     "name": "The First",
     "role": "Killer",
-    "speed": "4.4m/s",
+    "speed": "4.4",
     "radius": "32m",
     "portrait_url": "first.webp",
     "store_url": "first.webp"
