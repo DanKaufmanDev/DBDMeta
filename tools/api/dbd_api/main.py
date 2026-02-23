@@ -34,7 +34,11 @@ def get_stats_from_page(driver, regex_pattern):
     """)
 
 def scrape_dbd_meta():
-    driver = None
+
+    try:
+        driver = uc.Chrome(options=options, version_main=144)
+    except Exception:
+        driver = uc.Chrome(options=options)
     try:
         options = uc.ChromeOptions()
         options.add_argument("--window-size=1920,1080")
@@ -42,8 +46,7 @@ def scrape_dbd_meta():
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--disable-gpu")
-        driver = uc.Chrome(options=options)
-        
+
         # --- 1. KILLER STATS ---
         print("Fetching Killer Stats...")
         driver.get("https://nightlight.gg/killers/")
