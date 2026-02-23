@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  scrape-and-sync:
+  update-and-sync:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -28,7 +28,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          # Combined dependencies for both scraping and syncing
           uv pip install undetected_chromedriver selenium supabase python-dotenv
 
       - name: Step 1 Run Scraper
@@ -41,7 +40,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/*.json
           # Commit only if changes exist to avoid workflow failure
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Metadata [skip ci]" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Metadata" && git push)
 
       - name: Step 3 Sync to Supabase
         env:
