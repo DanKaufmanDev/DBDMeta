@@ -1448,7 +1448,7 @@
     "icon_file": "friendlyCompetition.webp"
   },
   "friendstiltheend": {
-    "name": "Friends ‘Til the End",
+    "name": "Friends 'Til the End",
     "side": "Killer",
     "description": "You'll kill anyone who gets between you and your target. You become obsessed with one Survivor. When you hook a Survivor that is not the Obsession, the Obsession becomes Exposed for 20 seconds and reveals their aura for {0} seconds. When you hook the Obsession, another random Survivor screams and reveals their position and becomes the Obsession. The Killer can only be obsessed with one Survivor at a time. Exposed Survivors will be downed by basic attacks even if uninjured\"I got some fresh meat lined up, and I'm not gonna let you spoil it, not this time!\" – Chucky",
     "tier_values": [
@@ -2968,7 +2968,7 @@
   "saboteur": {
     "name": "Saboteur",
     "side": "Survivor",
-    "description": "Unlocks potential in one's aura reading ability.See hook auras in a 56 meter radius from the pickup spot if another Survivor is being carried. Scourge Hooks are shown in yellow.Unlocks the ability to sabotage hooks without a Toolbox.Sabotaging a hook without a Toolbox takes 2.3 seconds.The sabotage action has a {0} second cooldown.",
+    "description": "Unlocks potential in one's aura reading ability. See hook auras in a 56 meter radius from the pickup spot if another Survivor is being carried. Scourge Hooks are shown in yellow. Unlocks the ability to sabotage hooks without a Toolbox. Sabotaging a hook without a Toolbox takes 2.3 seconds. The sabotage action has a {0} second cooldown.",
     "tier_values": [
       [
         70,
@@ -2981,12 +2981,12 @@
   "keepthemwaiting": {
     "name": "Keep Them Waiting",
     "side": "Killer",
-    "description": "You become obsessed with one Survivor.Earn a token for each successful basic attack that is not dealt to the Obsession. Each token grants a stackable {0}% decreased successful basic attack cooldown, you can earn up to {1} tokens.When you hit the Obsession with a Basic Attack or Special Attack, lose {2} tokens. You cannot gain tokens as long as your Obsession is sacrificed or killed.The Killer can only be obsessed with one Survivor at a time.",
+    "description": "You become obsessed with one Survivor. Earn a token for each successful basic attack that is not dealt to the Obsession. Each token grants a stackable 4% decreased successful basic attack cooldown, you can earn up to {0} tokens. When you hit the Obsession with a Basic Attack or Special Attack, lose 2 tokens. You cannot gain tokens as long as your Obsession is sacrificed or killed. The Killer can only be obsessed with one Survivor at a time.",
     "tier_values": [
       [
-        24,
-        28,
-        32
+        6,
+        7,
+        8
       ]
     ],
     "icon_file": "keepThemWaiting.webp"
@@ -2994,7 +2994,7 @@
   "scavenger": {
     "name": "Scavenger",
     "side": "Survivor",
-    "description": "Where others see junk, you see valuable improvised tools.While you are holding an empty toolbox, Scavenger activates.Succeeding a great skill check while repairing gains {0} token, up to {1}.When you reach maximum tokens, lose all tokens and automatically recharge your toolbox to full. Then, your generator repair speed is {2}% slower for {3} seconds.This perk grants the ability to rummage through an opened chest once per Trial and will guarantee a basic Toolbox.",
+    "description": "Where others see junk, you see valuable improvised tools. While you are holding an empty toolbox, Scavenger activates. Succeeding a great skill check while repairing gains 1 token, up to 5. When you reach maximum tokens, lose all tokens and automatically recharge your toolbox to full. Then, your generator repair speed is 50% slower for {0} seconds. This perk grants the ability to rummage through an opened chest once per Trial and will guarantee a basic Toolbox.",
     "tier_values": [
       [
         40,
@@ -3007,7 +3007,7 @@
   "scenepartner": {
     "name": "Scene Partner",
     "side": "Survivor",
-    "description": "You lock in with your co-star, engaging with and reacting to each other on a higher level.Scene Partner activates when you are in the Killer's Terror Radius.Whenever you look at the Killer, scream, then see the Killer's aura for {0} seconds.There is a chance you will scream again, if you do, you will see the Killer's aura for an additional 2 seconds.Scene Partner then goes on cooldown for {1} seconds.",
+    "description": "You lock in with your co-star, engaging with and reacting to each other on a higher level. Scene Partner activates when you are in the Killer's Terror Radius. Whenever you look at the Killer, scream, then see the Killer's aura for {0} seconds. There is a chance you will scream again, if you do, you will see the Killer's aura for an additional 2 seconds. Scene Partner then goes on cooldown for 40 seconds.",
     "tier_values": [
       [
         4,
@@ -3020,7 +3020,7 @@
   "scourgehookfloodsofrage": {
     "name": "Scourge Hook: Floods of Rage",
     "side": "Killer",
-    "description": "You form a psychic connection with The Entity and alter the rules of the trial.At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.When a Survivor is unhooked from a scourge hook, all other Survivors have their auras revealed for {1} seconds.",
+    "description": "You form a psychic connection with The Entity and alter the rules of the trial. At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white. When a Survivor is unhooked from a scourge hook, all other Survivors have their auras revealed for {0} seconds.",
     "tier_values": [
       [
         5,
@@ -3033,7 +3033,7 @@
   "scourgehookweepingowounds": {
     "name": "Scourge Hook: Weeping Wounds",
     "side": "Killer",
-    "description": "You are the bringer of sweet pain.At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.When a Survivor is unhooked from a scourge hook, they suffer from the Hemorrhage and Mangled status effect for {1} seconds. The first time the Survivor is healed, they suffer a {2}% speed penalty to healing and repairing actions until injured again.Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured survivors. This lasts for a set duration or until fully healed.Mangled increases time required to heal by 25% and lasts for a set duration or until fully healed.",
+    "description": "You are the bringer of sweet pain. At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white. When a Survivor is unhooked from a scourge hook, they suffer from the Hemorrhage and Mangled status effect for 90 seconds. The first time the Survivor is healed, they suffer a {0}% speed penalty to healing and repairing actions until injured again. Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured survivors. This lasts for a set duration or until fully healed. Mangled increases time required to heal by 25% and lasts for a set duration or until fully healed.",
     "tier_values": [
       [
         10,
@@ -3046,7 +3046,7 @@
   "scourgehookhangmanstrick": {
     "name": "Scourge Hook: Hangman's Trick",
     "side": "Killer",
-    "description": "Your ingenious modifications to hooks alert you of tampering.At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white.Gain a notification when a Survivor begins sabotaging a hook.While carrying a Survivor, see the aura of any Survivor within {0} meters of a scourge hook.",
+    "description": "Your ingenious modifications to hooks alert you of tampering. At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white. Gain a notification when a Survivor begins sabotaging a hook. While carrying a Survivor, see the aura of any Survivor within {0} meters of a scourge hook.",
     "tier_values": [
       [
         12,
@@ -3059,7 +3059,7 @@
   "scourgehookjaggedcompass": {
     "name": "Scourge Hook: Jagged Compass",
     "side": "Killer",
-    "description": "Sometimes the compass points north. Other times it points somewhere else entirely.At the start of the trial, up to 4 random hooks are changed into scourge hooks. You see their auras in white.When a Survivor is unhooked from a hook, it becomes a scourge hook.When you hook a Survivor on a scourge hook, the aura of the generator with the most progress is revealed in yellow for {0} seconds.\"Drop anchor! I will chart us a new course.\" - Portia Maye",
+    "description": "Sometimes the compass points north. Other times it points somewhere else entirely. At the start of the trial, up to 4 random hooks are changed into scourge hooks. You see their auras in white. When a Survivor is unhooked from a hook, it becomes a scourge hook. When you hook a Survivor on a scourge hook, the aura of the generator with the most progress is revealed in yellow for {0} seconds. \"Drop anchor! I will chart us a new course.\" - Portia Maye",
     "tier_values": [
       [
         6,
@@ -3072,7 +3072,7 @@
   "scourgehookmonstrousshrine": {
     "name": "Scourge Hook: Monstrous Shrine",
     "side": "Killer",
-    "description": "Your fervent care of the hooks found in the basement have aroused The Entity's interest.At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.Scourge Hooks grant {1}% faster Entity progression if the Killer is not within 24 meters.Basement hooks count as Scourge Hooks.",
+    "description": "Your fervent care of the hooks found in the basement have aroused The Entity's interest. At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white. Scourge Hooks grant {0}% faster Entity progression if the Killer is not within 24 meters. Basement hooks count as Scourge Hooks.",
     "tier_values": [
       [
         10,
@@ -3085,7 +3085,7 @@
   "scourgehookpainresonance": {
     "name": "Scourge Hook: Pain Resonance",
     "side": "Killer",
-    "description": "Overwhelming pain reverberates outwards into chaos.At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.You start the Trial with 4 tokens, 1 for each Survivor. If a generator is available when that Survivor is hooked on a scourge hook, lose 1 token. The generator with the most progress explodes, instantly losing {1}% progress, and will start to regress. Survivors repairing the generator will scream.Once you have no tokens, Pain Resonance deactivates for the rest of the Trial.",
+    "description": "Overwhelming pain reverberates outwards into chaos. At the start of the trial, 4 random hooks are changed into scourge hooks. You see their auras in white. You start the Trial with 4 tokens, 1 for each Survivor. If a generator is available when that Survivor is hooked on a scourge hook, lose 1 token. The generator with the most progress explodes, instantly losing {0}% progress, and will start to regress. Survivors repairing the generator will scream. Once you have no tokens, Pain Resonance deactivates for the rest of the Trial.",
     "tier_values": [
       [
         10,
@@ -3098,7 +3098,7 @@
   "secondwind": {
     "name": "Second Wind",
     "side": "Survivor",
-    "description": "When you have healed other Survivors for the equivalent of one health state, Second Wind activates. If you are already afflicted by the Broken status effect, Second Wind does not activate.While Second Wind is activated, the next time you are unhooked or you unhook yourself, you are affected by the Broken status effect. After a total duration of {0} seconds, Second Wind automatically heals you from injured to healthy.Second Wind deactivates once you become healthy or if you are put into the dying state before Second Wind successfully triggers. You lose the Broken status effect.Broken prevents Survivors from being healed.",
+    "description": "When you have healed other Survivors for the equivalent of one health state, Second Wind activates. If you are already afflicted by the Broken status effect, Second Wind does not activate. While Second Wind is activated, the next time you are unhooked or you unhook yourself, you are affected by the Broken status effect. After a total duration of {0} seconds, Second Wind automatically heals you from injured to healthy. Second Wind deactivates once you become healthy or if you are put into the dying state before Second Wind successfully triggers. You lose the Broken status effect. Broken prevents Survivors from being healed.",
     "tier_values": [
       [
         28,
@@ -3111,7 +3111,7 @@
   "secretproject": {
     "name": "Secret Project",
     "side": "Killer",
-    "description": "Raised to be a weapon, you broke free with the very skills your captors honed within you.When a totem is blessed or cleansed, block a random unblocked generator for {0} seconds.When 1 or more generators become blocked, you gain Undetectable for {1} seconds.Undetectable hides the Killer's aura, Terror Radius, and Red Stain.“You are a prisoner here, just like me.” —Henry Creel",
+    "description": "Raised to be a weapon, you broke free with the very skills your captors honed within you. When a totem is blessed or cleansed, block a random unblocked generator for {0} seconds. When 1 or more generators become blocked, you gain Undetectable for 30 seconds. Undetectable hides the Killer's aura, Terror Radius, and Red Stain. “You are a prisoner here, just like me.” —Henry Creel",
     "tier_values": [
       [
         20,
@@ -3137,7 +3137,7 @@
   "selfpreservation": {
     "name": "Self-Preservation",
     "side": "Survivor",
-    "description": "Life's unforgiving. Sometimes it's best to look out for yourself.Whenever another Survivor within {0} meters of you gets hit by a basic attack or a special attack, Self-Preservation activates.Your scratch marks, pools of blood and grunts of pain are hidden for {1} seconds.",
+    "description": "Life's unforgiving. Sometimes it's best to look out for yourself. Whenever another Survivor within 16 meters of you gets hit by a basic attack or a special attack, Self-Preservation activates. Your scratch marks, pools of blood and grunts of pain are hidden for {0} seconds.",
     "tier_values": [
       [
         6,
@@ -3150,7 +3150,7 @@
   "septictouch": {
     "name": "Septic Touch",
     "side": "Killer",
-    "description": "The Land of Shadows subsumes all. Healing only delays the inevitable.Whenever a Survivor performs the healing action within your Terror Radius, that Survivor suffers from Blindness and Exhausted.These effects linger for {0} seconds after a healing action is interrupted by any means.Blindness prevents Survivors from seeing auras.Exhausted prevents Survivors from activating exhausting perks.",
+    "description": "The Land of Shadows subsumes all. Healing only delays the inevitable. Whenever a Survivor performs the healing action within your Terror Radius, that Survivor suffers from Blindness and Exhausted. These effects linger for {0} seconds after a healing action is interrupted by any means. Blindness prevents Survivors from seeing auras. Exhausted prevents Survivors from activating exhausting perks.",
     "tier_values": [
       [
         20,
@@ -3163,7 +3163,7 @@
   "shadowborn": {
     "name": "Shadowborn",
     "side": "Killer",
-    "description": "You have a keen vision in the darkness of the night.When blinded by any means, gain {0}% Haste for {1} seconds.Haste increases Killer movement speed.",
+    "description": "You have a keen vision in the darkness of the night. When blinded by any means, gain {0}% Haste for 10 seconds. Haste increases Killer movement speed.",
     "tier_values": [
       [
         6,
@@ -3176,7 +3176,7 @@
   "shatteredhope": {
     "name": "Shattered Hope",
     "side": "Killer",
-    "description": "To capture your prey, you must first extinguish their hope.Whenever you snuff a Boon Totem, the totem is destroyed instead.When you destroy a Boon Totem this way, the auras of all Survivors inside the Boon Totem range are revealed to you for {0} seconds.",
+    "description": "To capture your prey, you must first extinguish their hope. Whenever you snuff a Boon Totem, the totem is destroyed instead. When you destroy a Boon Totem this way, the auras of all Survivors inside the Boon Totem range are revealed to you for {0} seconds.",
     "tier_values": [
       [
         6,
@@ -3189,7 +3189,7 @@
   "shouldertheburden": {
     "name": "Shoulder the Burden",
     "side": "Survivor",
-    "description": "Born to be a disciple. Ready to submit to a greater cause. This is your calling.Once per trial, as long as you are not on death hook, press the Ability button 2 in front of a hooked Survivor to unhook them.When they are unhooked, they lose 1 hook state and you gain 1 hook state. You also scream and gain the Exposed status effect for {0} seconds.Exposed Survivors will be downed by basic attacks even if uninjured.\"It's not your time yet. Now go on!\" - Taurie Cain",
+    "description": "Born to be a disciple. Ready to submit to a greater cause. This is your calling.Once per trial, as long as you are not on death hook, press the Ability button 2 in front of a hooked Survivor to unhook them. When they are unhooked, they lose 1 hook state and you gain 1 hook state. You also scream and gain the Exposed status effect for {0} seconds. Exposed Survivors will be downed by basic attacks even if uninjured. \"It's not your time yet. Now go on!\" - Taurie Cain",
     "tier_values": [
       [
         60,
@@ -3202,7 +3202,7 @@
   "slipperymeat": {
     "name": "Slippery Meat",
     "side": "Survivor",
-    "description": "You have developed an efficient way to get off hooks.Unlocks the ability to attempt to unhook yourself.Grants up to {0} extra escape attempts on the hook.Hook escape attempts have a {1}% increased chance to succeed.",
+    "description": "You have developed an efficient way to get off hooks. Unlocks the ability to attempt to unhook yourself. Grants up to 3 extra escape attempts on the hook. Hook escape attempts have a {0}% increased chance to succeed.",
     "tier_values": [
       [
         2,
@@ -3215,7 +3215,7 @@
   "sloppybutcher": {
     "name": "Sloppy Butcher",
     "side": "Killer",
-    "description": "You know where to hit to make them bleed.Wounds inflicted by basic attacks cause Survivors to suffer from the Hemorrhage and Mangled status effects for {0} seconds.Increases the rate at which healing progression is lost from Hemorrhage by {1}%.Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured survivors. This lasts for a set duration or until fully healed.Mangled increases time required to heal by 25% and lasts for a set duration or until fully healed.",
+    "description": "You know where to hit to make them bleed. Wounds inflicted by basic attacks cause Survivors to suffer from the Hemorrhage and Mangled status effects for {0} seconds. Increases the rate at which healing progression is lost from Hemorrhage by 25%. Hemorrhage regresses healing progress when not healing, and increases blood trails left by injured survivors. This lasts for a set duration or until fully healed. Mangled increases time required to heal by 25% and lasts for a set duration or until fully healed.",
     "tier_values": [
       [
         70,
@@ -3234,6 +3234,11 @@
         8,
         10,
         12
+      ],
+      [
+        14,
+        12,
+        10
       ]
     ],
     "icon_file": "smallGame.webp"
@@ -3241,12 +3246,12 @@
   "smashhit": {
     "name": "Smash Hit",
     "side": "Survivor",
-    "description": "When your rival makes a mistake, you seize the opportunity.After stunning the Killer with a pallet, gain {0}% Haste for {1} seconds.Causes the Exhausted status effect for {2} seconds.This perk cannot be used while Exhausted.Exhausted prevents Survivors from activating exhausting perks.Haste increases Survivor movement speed.",
+    "description": "When your rival makes a mistake, you seize the opportunity. After stunning the Killer with a pallet, gain 50% Haste for 4 seconds. Causes the Exhausted status effect for {0} seconds. This perk cannot be used while Exhausted. Exhausted prevents Survivors from activating exhausting perks. Haste increases Survivor movement speed.",
     "tier_values": [
       [
-        60,
-        50,
-        40
+        30,
+        25,
+        20
       ]
     ],
     "icon_file": "smashHit.webp"
@@ -3254,7 +3259,7 @@
   "downtothelast": {
     "name": "Down to the Last",
     "side": "Survivor",
-    "description": "As more of your friends fall to the Killer, you become shrouded in isolation and the Killer's aura-reading abilities towards you are disrupted.Every time a fellow Survivor is killed or sacrificed, gain a token. For each token, your aura cannot be read by The Killer within a max range of {0} meters.When you're the last Survivor alive:Gain 75% action speed when repairing generators.Gain 50% action speed while opening an exit gate or the Hatch.Increases your chances of being The Killer's Obsession.The Killer can only be obsessed with one Survivor at a time.",
+    "description": "As more of your friends fall to the Killer, you become shrouded in isolation and the Killer's aura-reading abilities towards you are disrupted. Every time a fellow Survivor is killed or sacrificed, gain a token. For each token, your aura cannot be read by The Killer within a max range of {0} meters. When you're the last Survivor alive: Gain 75% action speed when repairing generators. Gain 50% action speed while opening an exit gate or the Hatch. Increases your chances of being The Killer's Obsession. The Killer can only be obsessed with one Survivor at a time.",
     "tier_values": [
       [
         20,
@@ -3267,7 +3272,7 @@
   "solidarity": {
     "name": "Solidarity",
     "side": "Survivor",
-    "description": "Sharing painful experiences has the power to heal.While injured, healing a Survivor without using a Med-kit also heals you at a {0}% conversion rate.",
+    "description": "Sharing painful experiences has the power to heal. While injured, healing a Survivor without using a Med-kit also heals you at a {0}% conversion rate.",
     "tier_values": [
       [
         50,
@@ -3280,7 +3285,7 @@
   "soulguard": {
     "name": "Soul Guard",
     "side": "Survivor",
-    "description": "You have been through immense hardship and you're stronger for it.Gain the Endurance status effect for {0} seconds after being healed or having recovered from the dying state.While cursed by a Hex, you can fully recover from the dying state.This effect can only trigger once every 30 seconds.Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
+    "description": "You have been through immense hardship and you're stronger for it. Gain the Endurance status effect for {0} seconds after being healed or having recovered from the dying state. While cursed by a Hex, you can fully recover from the dying state.This effect can only trigger once every 30 seconds. Endurance prevents a Survivor from being downed, inflicting Deep Wound instead. Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
     "tier_values": [
       [
         4,
@@ -3293,7 +3298,7 @@
   "specialist": {
     "name": "Specialist",
     "side": "Survivor",
-    "description": "Adventure. Exploration. Excavation. You are in your element.Each time you open or rummage through a chest, gain 1 token, up to {0}.When you perform a great Skill Check on a generator, consume all tokens. Then, for each token consumed, reduce the maximum required generator progress by {1}.\"Well, then. Doesn't this feel familiar?\" - Lara Croft",
+    "description": "Adventure. Exploration. Excavation. You are in your element. Each time you open or rummage through a chest, gain 1 token, up to 6. When you perform a great Skill Check on a generator, consume all tokens. Then, for each token consumed, reduce the maximum required generator progress by {0}. \"Well, then. Doesn't this feel familiar?\" - Lara Croft",
     "tier_values": [
       [
         2,
@@ -3306,7 +3311,7 @@
   "spiesfromtheshadows": {
     "name": "Spies from the Shadows",
     "side": "Killer",
-    "description": "The crows found in the world can communicate with you directly.{0}% of the time, cawing crows give you a visual cue when you are within a {1} meter range.Spies From The Shadows has a cooldown of {2} seconds.",
+    "description": "The crows found in the world can communicate with you directly. 100% of the time, cawing crows give you a visual cue when you are within a {0} meter range. Spies From The Shadows has a cooldown of 5 seconds.",
     "tier_values": [
       [
         20,
@@ -3319,7 +3324,7 @@
   "spinechill": {
     "name": "Spine Chill",
     "side": "Survivor",
-    "description": "An unnatural tingle warns you of impending doom.Get notified when the Killer is looking at you with a clear line of sight within a 36-meter range. Your speed while repairing, sabotaging, healing, unhooking, cleansing, blessing, opening exit gates and unlocking is increased by {0}%.The effects of Spine Chill linger for 0.5 seconds after the Killer looks away or is out of range.",
+    "description": "An unnatural tingle warns you of impending doom. Get notified when the Killer is looking at you with a clear line of sight within a 36-meter range. Your speed while repairing, sabotaging, healing, unhooking, cleansing, blessing, opening exit gates and unlocking is increased by {0}%.The effects of Spine Chill linger for 0.5 seconds after the Killer looks away or is out of range.",
     "tier_values": [
       [
         2,
@@ -3332,7 +3337,7 @@
   "spiritfury": {
     "name": "Spirit Fury",
     "side": "Killer",
-    "description": "Each pallet you break magnifies the wrath of The Entity.After you break {0} pallets, the next time you are stunned by a pallet, The Entity will instantly break the pallet.You still suffer from the stun effect penalty.",
+    "description": "Each pallet you break magnifies the wrath of The Entity. After you break {0} pallets, the next time you are stunned by a pallet, The Entity will instantly break the pallet. You still suffer from the stun effect penalty.",
     "tier_values": [
       [
         4,
@@ -3345,7 +3350,7 @@
   "sprintburst": {
     "name": "Sprint Burst",
     "side": "Survivor",
-    "description": "When you start running, gain {0}% Haste for a maximum of {1} seconds.Causes the Exhausted status effect for {2} seconds.Sprint Burst cannot be used while Exhausted.You do not recover from the Exhausted status effect while running.Haste increases Survivor movement speed.Exhausted prevents Survivors from activating exhausting perks.",
+    "description": "When you start running, gain 50% Haste for a maximum of 3 seconds. Causes the Exhausted status effect for {0} seconds. Sprint Burst cannot be used while Exhausted. You do not recover from the Exhausted status effect while running. Haste increases Survivor movement speed. Exhausted prevents Survivors from activating exhausting perks.",
     "tier_values": [
       [
         60,
@@ -3358,7 +3363,7 @@
   "stakeout": {
     "name": "Stake Out",
     "side": "Survivor",
-    "description": "Getting close to the Killer fills you with determination. For each {0} seconds you are standing within the Killer Terror Radius and not in a chase, you gain a token up to a maximum of {1} tokens.When Stake Out has at least 1 token, good Skill Checks are considered great Skill Checks, consume 1 token, and grant an additional 1% bonus to generator repair progress.",
+    "description": "Getting close to the Killer fills you with determination. For each 15 seconds you are standing within the Killer Terror Radius and not in a chase, you gain a token up to a maximum of {0} tokens. When Stake Out has at least 1 token, good Skill Checks are considered great Skill Checks, consume 1 token, and grant an additional 1% bonus to generator repair progress.",
     "tier_values": [
       [
         2,
@@ -3371,7 +3376,7 @@
   "starstruck": {
     "name": "Starstruck",
     "side": "Killer",
-    "description": "Your unmatched showmanship dazzles all.While carrying a Survivor, any other Survivors within your Terror Radius suffer from the Exposed status effect.The effect persists for {0} seconds on Survivors who leave your Terror Radius, as well as those within the radius when you hook or release the carried Survivor.Starstruck has a cooldown of {1} seconds once a Survivor is no longer carried.Exposed Survivors will be downed by basic attacks even if uninjured.",
+    "description": "Your unmatched showmanship dazzles all. While carrying a Survivor, any other Survivors within your Terror Radius suffer from the Exposed status effect. The effect persists for {0} seconds on Survivors who leave your Terror Radius, as well as those within the radius when you hook or release the carried Survivor. Starstruck has a cooldown of 60 seconds once a Survivor is no longer carried. Exposed Survivors will be downed by basic attacks even if uninjured.",
     "tier_values": [
       [
         26,
@@ -3384,7 +3389,7 @@
   "stillsight": {
     "name": "Still Sight",
     "side": "Survivor",
-    "description": "A clear mind and calm temperament will always find the means of their escape.After not moving for {0} seconds, this perk activates.Until you start moving, you see the aura of the Killer as well as all generators and chests within {1} meters.\"Breathe in. Breathe out. Now open your eyes.\" - Baermar",
+    "description": "A clear mind and calm temperament will always find the means of their escape. After not moving for {0} seconds, this perk activates. Until you start moving, you see the aura of the Killer as well as all generators and chests within 24 meters. \"Breathe in. Breathe out. Now open your eyes.\" - Baermar",
     "tier_values": [
       [
         4,
@@ -3397,7 +3402,7 @@
   "streetwise": {
     "name": "Streetwise",
     "side": "Survivor",
-    "description": "Long nights out taught you to do a lot with what you've got.The first time you deplete an Item with charges, see the Killer's Aura for {1} seconds.Items with charges retrieved from Chests have +{0}% charges.\"You're doing it wrong! Let me show you how it's done.\" - Nea",
+    "description": "Long nights out taught you to do a lot with what you've got.T he first time you deplete an Item with charges, see the Killer's Aura for 8 seconds. Items with charges retrieved from Chests have +{0}% charges. \"You're doing it wrong! Let me show you how it's done.\" - Nea",
     "tier_values": [
       [
         60,
@@ -3410,7 +3415,7 @@
   "strengthinshadows": {
     "name": "Strength in Shadows",
     "side": "Survivor",
-    "description": "A chance for renewed power down where danger calls home.When in the basement, this perk activates.Unlocks the Strength in Shadows ability, which allows you to heal without a Med-kit at {0}% normal healing speed.When you finish a heal in the basement, you see the Killer's aura for {1} seconds.\"I'm getting out of here, if it's the last thing I do.” - Sable",
+    "description": "A chance for renewed power down where danger calls home. When in the basement, this perk activates. Unlocks the Strength in Shadows ability, which allows you to heal without a Med-kit at 70% normal healing speed. When you finish a heal in the basement, you see the Killer's aura for {0} seconds. \"I'm getting out of here, if it's the last thing I do.” - Sable",
     "tier_values": [
       [
         6,
@@ -3423,12 +3428,17 @@
   "stridor": {
     "name": "Stridor",
     "side": "Killer",
-    "description": "You are acutely sensitive to the breathing of your prey.Breathing of Survivors in pain is {0}% louder and regular breathing is {1}% louder.",
+    "description": "You are acutely sensitive to the breathing of your prey. Breathing of Survivors in pain is {0}% louder and regular breathing is {1}% louder.",
     "tier_values": [
       [
         30,
         40,
         50
+      ],
+      [
+        15,
+        20,
+        25
       ]
     ],
     "icon_file": "stridor.webp"
@@ -3436,7 +3446,7 @@
   "superioranatomy": {
     "name": "Superior Anatomy",
     "side": "Killer",
-    "description": "Decades of research have culminated in you: something faster, stronger, and more dangerous than any human.When a Survivor performs a fast vault within {1} meters of you, this perk activates. The next time you vault a window, your vaulting speed is increased by {0}%.This perk deactivates after vaulting a window.This perk has a {2} second cooldown.",
+    "description": "Decades of research have culminated in you: something faster, stronger, and more dangerous than any human. When a Survivor performs a fast vault within 12 meters of you, this perk activates. The next time you vault a window, your vaulting speed is increased by {0}%. This perk deactivates after vaulting a window. This perk has a 25 second cooldown.",
     "tier_values": [
       [
         30,
@@ -3449,7 +3459,7 @@
   "surge": {
     "name": "Surge",
     "side": "Killer",
-    "description": "Your eerie presence charges the air and interferes with technology.Putting a Survivor into the dying state with a basic attack causes all generators within a 32-meter radius to explode instantly and begin regressing. Survivors repairing the generator will scream. Generators affected by Surge immediately lose {0}% of their progress.",
+    "description": "Your eerie presence charges the air and interferes with technology. Putting a Survivor into the dying state with a basic attack causes all generators within a 32-meter radius to explode instantly and begin regressing. Survivors repairing the generator will scream. Generators affected by Surge immediately lose {0}% of their progress.",
     "tier_values": [
       [
         6,
@@ -3462,7 +3472,7 @@
   "surveillance": {
     "name": "Surveillance",
     "side": "Killer",
-    "description": "Unlocks potential in one's aura reading ability. Any regressing generator will be highlighted by a white aura. If the regression is interrupted on a generator, it will be highlighted by a yellow aura for {0} seconds.Noises created by generator repairs are audible at an additional {1} meters.",
+    "description": "Unlocks potential in one's aura reading ability. Any regressing generator will be highlighted by a white aura. If the regression is interrupted on a generator, it will be highlighted by a yellow aura for {0} seconds. Noises created by generator repairs are audible at an additional 8 meters.",
     "tier_values": [
       [
         8,
@@ -3475,7 +3485,7 @@
   "teamworkcollectivestealth": {
     "name": "Teamwork: Collective Stealth",
     "side": "Survivor",
-    "description": "When someone helps you out, you respond in kind.When another Survivor finishes healing you, you both leave no scratch marks as long as you stay within {1} meters of each other.This effect lingers for 4 seconds when leaving the range.This effect does not stack.",
+    "description": "When someone helps you out, you respond in kind. When another Survivor finishes healing you, you both leave no scratch marks as long as you stay within {0} meters of each other. This effect lingers for 4 seconds when leaving the range. This effect does not stack.",
     "tier_values": [
       [
         8,
@@ -3488,7 +3498,7 @@
   "teamworkfullcircuit": {
     "name": "Teamwork: Full Circuit",
     "side": "Survivor",
-    "description": "You've dabbled with mechanical engineering and show off your abilities to others.For each Survivor repairing a generator with you, the size of the good Skill Check zone is increased by {0}%.While repairing with at least 1 other Survivor, you repair {1}% faster.“How many times do I have to be right on the money before you guys just trust me?” —Dustin Henderson",
+    "description": "You've dabbled with mechanical engineering and show off your abilities to others. For each Survivor repairing a generator with you, the size of the good Skill Check zone is increased by {0}%. While repairing with at least 1 other Survivor, you repair 5% faster. “How many times do I have to be right on the money before you guys just trust me?” —Dustin Henderson",
     "tier_values": [
       [
         15,
@@ -3501,7 +3511,7 @@
   "teamworkpoweroftwo": {
     "name": "Teamwork: Power of Two",
     "side": "Survivor",
-    "description": "It's hard to keep up with you, but it doesn't stop people from trying.When you finish healing another Survivor, you both gain {0}% Haste as long as you stay within {1} meters of each other.This effect lingers for 4 seconds when leaving the range.This effect does not stack.Haste increases Survivor movement speed.",
+    "description": "It's hard to keep up with you, but it doesn't stop people from trying. When you finish healing another Survivor, you both gain 5% Haste as long as you stay within {0} meters of each other.This effect lingers for 4 seconds when leaving the range.This effect does not stack.Haste increases Survivor movement speed.",
     "tier_values": [
       [
         8,
@@ -3514,7 +3524,7 @@
   "teamworksoftspoken": {
     "name": "Teamwork: Soft-Spoken",
     "side": "Survivor",
-    "description": "You look out for your friends, using your abilities to protect them.For each Survivor repairing a generator with you, the range at which the generator's noise is heard is reduced by {0}%.While repairing with at least 1 other Survivor, you repair {1}% faster.\"I make my own rules.\" —Eleven",
+    "description": "You look out for your friends, using your abilities to protect them. For each Survivor repairing a generator with you, the range at which the generator's noise is heard is reduced by {0}%. While repairing with at least 1 other Survivor, you repair 5% faster. \"I make my own rules.\" —Eleven",
     "tier_values": [
       [
         15,
@@ -3527,7 +3537,7 @@
   "teamworkthrowdown": {
     "name": "Teamwork: Throw Down",
     "side": "Survivor",
-    "description": "You know the best way to even the odds is to empower those around you.When you pallet-stun or blind the Killer, other injured Survivors within {0} meters gain Endurance and see the Killer's aura for {1} seconds.Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.\"Facing evil brings good people together.\" - Michonne Grimes",
+    "description": "You know the best way to even the odds is to empower those around you. When you pallet-stun or blind the Killer, other injured Survivors within 24 meters gain Endurance and see the Killer's aura for {0} seconds. Endurance prevents a Survivor from being downed, inflicting Deep Wound instead. Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out. \"Facing evil brings good people together.\" - Michonne Grimes",
     "tier_values": [
       [
         6,
@@ -3540,7 +3550,7 @@
   "teamworktoughenup": {
     "name": "Teamwork: Toughen Up",
     "side": "Survivor",
-    "description": "You maintain your composure under immense amounts of pain.When another Survivor pallet-stuns or blinds the Killer while you are injured and within {0} meters, your grunts of pain, scratch marks, and pools of blood are reduced by {1}% for {2} seconds.“They're fucking with the wrong people.” —Rick Grimes",
+    "description": "You maintain your composure under immense amounts of pain. When another Survivor pallet-stuns or blinds the Killer while you are injured and within 24 meters, your grunts of pain, scratch marks, and pools of blood are reduced by 100% for {0} seconds. “They're fucking with the wrong people.” —Rick Grimes",
     "tier_values": [
       [
         20,
