@@ -1,29 +1,51 @@
-name: Sync Metadata
+name: DBD Metadata Update & Sync
 
 on:
-  push:
-    paths:
-      - 'data/kmetadata.json'
-      - 'data/tkperksmetadata.json'
-      - 'data/tsperksmetadata.json'
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-db:
+  scrape-and-sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Install uv and Set up Python
         uses: astral-sh/setup-uv@v5
         with:
-          python-version: '3.12'
+          python-version: '3.10'
           enable-cache: true
 
-      - name: Run Sync Scripts
+      - name: Setup Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable xvfb
+
+      - name: Install dependencies
+        run: |
+          # Combined dependencies for both scraping and syncing
+          uv pip install undetected_chromedriver selenium supabase python-dotenv
+
+      - name: Step 1 Run Scraper
+        run: |
+          xvfb-run uv run tools/api/dbd_api/main.py
+
+      - name: Step 2 Commit and Push JSON changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          # Commit only if changes exist to avoid workflow failure
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Metadata [skip ci]" && git push)
+
+      - name: Step 3 Sync to Supabase
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-
         run: |
-          uv pip install supabase python-dotenv
-          python tools/syncmetadata/main.py
+          uv run tools/syncmetadata/main.py
