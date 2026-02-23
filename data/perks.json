@@ -2285,7 +2285,7 @@
     "icon_file": "madeForThis.webp"
   },
   "makeyourchoice": {
-    "name": "Make your Choice",
+    "name": "Make Your Choice",
     "side": "Killer",
     "description": "When a Survivor rescues another from a hook at least 32 meters away from you, Make your Choice causes the Survivor to scream and applies the Exposed status effect to them for {0} seconds. Make your Choice has a cooldown of {0} seconds. Exposed Survivors will be downed by basic attacks even if uninjured.",
     "tier_values": [
@@ -2888,7 +2888,7 @@
     "icon_file": "rememberMe.webp"
   },
   "repressedalliance": {
-    "name": "Repressed Alliance ",
+    "name": "Repressed Alliance",
     "side": "Survivor",
     "description": "You're accustomed to being hunted by malicious forces, and you've begun using it to your advantage. Repressed Alliance activates after repairing generators for a total of {0} seconds. When repairing a generator while the perk is active, press the Active Ability Button 1 to call upon The Entity to block the generator for 30 seconds. The perk deactivates. This interaction is not available if other Survivors are repairing the generator. Affected generators will be revealed by a white aura to all Survivors.",
     "tier_values": [
@@ -3704,7 +3704,7 @@
     "icon_file": "troubleshooter.webp"
   },
   "turnbacktheclock": {
-    "name": "Turn Back the Clock",
+    "name": "Turn Back The Clock",
     "side": "Killer",
     "description": "Resist as they might, time marches on, and your master plan comes closer to fruition.After hooking a Survivor, for {0} seconds, press the Ability button 1 to make a target generator you can see within {1} meters explode, lose {2}% progress and start regressing.“Nothing will happen to you... Nothing that you don't deserve!” —Henry Creel",
     "tier_values": [
