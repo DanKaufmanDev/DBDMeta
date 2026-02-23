@@ -1,5 +1,6 @@
 import json
 import time
+import sys
 import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -42,6 +43,7 @@ def scrape_dbd_meta():
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--disable-gpu") 
+    options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
 
     print("Starting Chrome...")
     
@@ -55,10 +57,11 @@ def scrape_dbd_meta():
             print(f"❌ Critical Failure: Could not start Chrome. {e2}")
             sys.exit(1)
     
+    try:
         # --- 1. KILLER STATS ---
         print("Fetching Killer Stats...")
         driver.get("https://nightlight.gg/killers/")
-        time.sleep(5) 
+        time.sleep(10)
         
         killer_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%[\s\S]*?(?:Kill Rate|Escape Rate)\n100%\n(\d+\.?\d*)%/gm"
         killer_stats = get_stats_from_page(driver, killer_regex)
@@ -71,7 +74,7 @@ def scrape_dbd_meta():
         # --- 2. SURVIVOR PERKS ---
         print("Fetching Survivor Perks...")
         driver.get("https://nightlight.gg/perks/viewer?role=survivor&shown=pick%7Cescape_rate&sort=pick&start_days=28")
-        time.sleep(5)
+        time.sleep(7)
         
         perk_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%[\s\S]*?Escape Rate\n100%\n(\d+\.?\d*)%/gm"
         surv_perks = get_stats_from_page(driver, perk_regex)
@@ -84,9 +87,9 @@ def scrape_dbd_meta():
         # --- 3. KILLER PERKS ---
         print("Fetching Killer Perks...")
         driver.get("https://nightlight.gg/perks/viewer?role=killer&shown=pick&sort=pick&start_days=28")
-        time.sleep(5)
+        time.sleep(7)
         
-        k_perk_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%[\s\S]*?Kill Rate\n100%\n(\d+\.?\d*)%/gm"
+        k_perk_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%/gm"
         killer_perks = get_stats_from_page(driver, k_perk_regex)
 
         if killer_perks:
@@ -94,37 +97,35 @@ def scrape_dbd_meta():
                 json.dump(killer_perks, f, indent=4)
             print(f"Captured {len(killer_perks)} Killer Perks.")
 
+        # --- CLEANING LOGIC ---
+        print("Cleaning JSON files...")
+        
+        def clean_perk_names(file_path):
+            with open(file_path, "r") as f:
+                data = json.load(f)
+            for item in data:
+                item['name'] = item['name'].replace('\u2019', "'").replace('\u2018', "\u2018").replace('\u00e2', "a")
+            with open(file_path, "w") as f:
+                json.dump(data, f, indent=4)
 
-        path = "data/tkperksmetadata.json"
+        clean_perk_names("data/tkperksmetadata.json")
+        clean_perk_names("data/tsperksmetadata.json")
 
-        with open(path, "r") as f:
-            data = json.load(f)
-
-        for item in data:
-            item['name'] = item['name'].replace('\u2019', "'").replace('\u2018', "‘").replace('\u00e2', "a")
-
-        with open(path, "w") as f:
-            json.dump(data, f, indent=4)
-
-
-        path = "data/kmetadata.json"
-
-        with open(path, "r") as f:
-            data = json.load(f)
-
-        for item in data:
-            if not item['name'].startswith("The "):
-                item['name'] = f"The {item['name']}"
-
-            if item['name'] == 'Ghost Face' or 'The Ghost Face':
+        with open("data/kmetadata.json", "r") as f:
+            k_data = json.load(f)
+        for item in k_data:
+            if item['name'] in ['Ghost Face', 'The Ghost Face']:
                 item['name'] = 'The Ghostface'
+            elif not item['name'].startswith("The "):
+                item['name'] = f"The {item['name']}"
+        
+        with open("data/kmetadata.json", "w") as f:
+            json.dump(k_data, f, indent=4)
 
-        with open(path, "w") as f:
-            json.dump(data, f, indent=4)
+        print("JSON files cleaned and standardized.")
 
-
-        print("JSON file cleaned and standardized.")
-
+    except Exception as e:
+        print(f"Error during scraping: {e}")
     finally:
         if driver:
             driver.quit()
