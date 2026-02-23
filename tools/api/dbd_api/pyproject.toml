@@ -1,0 +1,15 @@
+[project]
+name = "iconurlswap"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "curl-cffi>=0.14.0",
+    "playwright>=1.58.0",
+    "playwright-stealth>=2.0.2",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+    "supabase>=2.28.0",
+]
