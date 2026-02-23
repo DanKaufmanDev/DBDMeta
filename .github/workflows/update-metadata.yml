@@ -25,4 +25,4 @@ jobs:
 
       - name: Run Scraper and Sync
         run: |
-          python tools/api/dbd_api/main.py
+          xvfb-run uv run tools/api/dbd_api/main.py
