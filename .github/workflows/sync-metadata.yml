@@ -1,0 +1,29 @@
+name: Sync Metadata
+
+on:
+  push:
+    paths:
+      - 'data/kmetadata.json'
+      - 'data/tkperksmetadata.json'
+      - 'data/tsperksmetadata.json'
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv and Set up Python
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.12'
+          enable-cache: true
+
+      - name: Run Sync Scripts
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
+        run: |
+          uv pip install supabase python-dotenv
+          python tools/syncmetadata/main.py

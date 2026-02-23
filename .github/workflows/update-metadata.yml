@@ -1,0 +1,29 @@
+name: Update Metadata
+
+on:
+  schedule:
+    # 0 0 * * * means "At 00:00 (midnight) every day"
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows you to run it manually for testing
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install uv and Set up Python
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.12'
+          enable-cache: true
+
+      - name: Install dependencies
+        run: |
+          uv pip install undetected-chromedriver selenium
+
+      - name: Run Scraper and Sync
+        run: |
+          python tools/api/dbd_api/main.py
