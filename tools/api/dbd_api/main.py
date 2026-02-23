@@ -34,25 +34,32 @@ def get_stats_from_page(driver, regex_pattern):
     """)
 
 def scrape_dbd_meta():
+    driver = None
+    
+    options = uc.ChromeOptions()
+    options.add_argument("--headless=new")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1920,1080")
+    options.add_argument("--disable-gpu") 
 
+    print("Starting Chrome...")
+    
     try:
         driver = uc.Chrome(options=options, version_main=144)
-    except Exception:
-        driver = uc.Chrome(options=options)
-    try:
-        options = uc.ChromeOptions()
-        options.add_argument("--window-size=1920,1080")
-        options.add_argument("--headless=new") 
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("--disable-gpu")
-
+    except Exception as e:
+        print(f"Version 144 init failed, attempting auto-detection: {e}")
+        try:
+            driver = uc.Chrome(options=options)
+        except Exception as e2:
+            print(f"❌ Critical Failure: Could not start Chrome. {e2}")
+            sys.exit(1)
+    
         # --- 1. KILLER STATS ---
         print("Fetching Killer Stats...")
         driver.get("https://nightlight.gg/killers/")
         time.sleep(5) 
         
-        # FIX: Using ^ with 'm' flag and capturing everything until the newline
         killer_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%[\s\S]*?(?:Kill Rate|Escape Rate)\n100%\n(\d+\.?\d*)%/gm"
         killer_stats = get_stats_from_page(driver, killer_regex)
         
@@ -66,7 +73,6 @@ def scrape_dbd_meta():
         driver.get("https://nightlight.gg/perks/viewer?role=survivor&shown=pick%7Cescape_rate&sort=pick&start_days=28")
         time.sleep(5)
         
-        # FIX: Same multiline fix for survivor perks
         perk_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%[\s\S]*?Escape Rate\n100%\n(\d+\.?\d*)%/gm"
         surv_perks = get_stats_from_page(driver, perk_regex)
         
@@ -80,7 +86,6 @@ def scrape_dbd_meta():
         driver.get("https://nightlight.gg/perks/viewer?role=killer&shown=pick&sort=pick&start_days=28")
         time.sleep(5)
         
-        # FIX: Same multiline fix for killer perks
         k_perk_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%[\s\S]*?Kill Rate\n100%\n(\d+\.?\d*)%/gm"
         killer_perks = get_stats_from_page(driver, k_perk_regex)
 
