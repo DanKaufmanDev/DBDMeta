@@ -4001,5 +4001,44 @@
       ]
     ],
     "icon_file": "zanshinTactics.webp"
+  },
+  "flowstate": {
+    "name": "Flow State",
+    "side": "Survivor",
+    "description": "Whenever a generator is completed, earn 1 token, up to 5. For each token: You bless and cleanse Totems {0}% faster. You heal {0}% faster. You unhook Survivors {0}% faster.",
+    "tier_values": [
+      [
+        8,
+        9,
+        10
+      ]
+    ],
+    "icon_file": "MISSING_ICON.webp"
+  },
+  "aplaceforus": {
+    "name": "A Place For Us",
+    "side": "Survivor",
+    "description": "While healing another Survivor, you both gain Elusive. Whenever you finish healing The Obsession, they gain Elusive for {0}s. When the trial starts, you are less likely to be the Obsession.",
+    "tier_values": [
+      [
+        20,
+        25,
+        30
+      ]
+    ],
+    "icon_file": "MISSING_ICON.webp"
+  },
+  "fivemovesahead": {
+    "name": "Five Moves Ahead",
+    "side": "Survivor",
+    "description": "While you are in the Killer's Terror radius or chased by the Killer: You see the Auras of the 5 closest Pallets and Windows. You drop Pallets 50% faster. Whenever you drop a Pallet, cooldown: {0}s.",
+    "tier_values": [
+      [
+        30,
+        25,
+        20
+      ]
+    ],
+    "icon_file": "MISSING_ICON.webp"
   }
 }
