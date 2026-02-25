@@ -1448,7 +1448,7 @@
     "icon_file": "friendlyCompetition.webp"
   },
   "friendstiltheend": {
-    "name": "Friends 'Til the End",
+    "name": "Friends ‘Til the End",
     "side": "Killer",
     "description": "You'll kill anyone who gets between you and your target. You become obsessed with one Survivor. When you hook a Survivor that is not the Obsession, the Obsession becomes Exposed for 20 seconds and reveals their aura for {0} seconds. When you hook the Obsession, another random Survivor screams and reveals their position and becomes the Obsession. The Killer can only be obsessed with one Survivor at a time. Exposed Survivors will be downed by basic attacks even if uninjured\"I got some fresh meat lined up, and I'm not gonna let you spoil it, not this time!\" – Chucky",
     "tier_values": [

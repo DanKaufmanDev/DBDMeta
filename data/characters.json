@@ -640,5 +640,11 @@
     "role": "Survivor",
     "portrait_url": "eleven.webp",
     "store_url": "eleven.webp"
+  },
+  "kwontaeyoun": {
+    "name": "Kwon Tae-Young",
+    "role": "Survivor",
+    "portrait_url": "kwontaeyoun.webp",
+    "store_url": "kwontaeyoun.webp"
   }
 }
