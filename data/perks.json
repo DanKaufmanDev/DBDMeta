@@ -3563,7 +3563,7 @@
   "technician": {
     "name": "Technician",
     "side": "Survivor",
-    "description": "You are apt at handling machinery with the greatest care and precision.The noises caused by your repairs and their hearing distance are reduced by {0} meters.On a failed repair Skill Check, the following effects happen:The generator explosion will be prevented.The generator loses progress as usual.An additional {1}% progress is lost.",
+    "description": "You are apt at handling machinery with the greatest care and precision.The noises caused by your repairs and their hearing distance are reduced by 8 meters. On a failed repair Skill Check, the following effects happen: The generator explosion will be prevented.The generator loses progress as usual. An additional {0}% progress is lost.",
     "tier_values": [
       [
         5,
@@ -3576,7 +3576,7 @@
   "tenacity": {
     "name": "Tenacity",
     "side": "Survivor",
-    "description": "There is nothing stopping you.Your ferocious tenacity in dire situations allows you to, while in the dying state, have {0}% Haste and gain recovery progress while crawling. While you are in the dying state, your aura cannot be read by the Killer and Grunts of pain are reduced by 75%.Haste increases Survivor movement speed.",
+    "description": "There is nothing stopping you. Your ferocious tenacity in dire situations allows you to, while in the dying state, have {0}% Haste and gain recovery progress while crawling. While you are in the dying state, your aura cannot be read by the Killer and Grunts of pain are reduced by 75%. Haste increases Survivor movement speed.",
     "tier_values": [
       [
         30,
@@ -3589,7 +3589,7 @@
   "terminus": {
     "name": "Terminus",
     "side": "Killer",
-    "description": "You are a brilliant tactician who prepares for every eventuality.When exit gates are powered, this perk activates. While Terminus is active, injured, downed and hooked Survivors are inflicted with the Broken status effect until exit gates are open.When exit gates are open, Survivors will stay Broken for an additional {0} seconds.Broken prevents Survivors from being healed.",
+    "description": "You are a brilliant tactician who prepares for every eventuality. When exit gates are powered, this perk activates. While Terminus is active, injured, downed and hooked Survivors are inflicted with the Broken status effect until exit gates are open. When exit gates are open, Survivors will stay Broken for an additional {0} seconds. Broken prevents Survivors from being healed.",
     "tier_values": [
       [
         35,
@@ -3602,7 +3602,7 @@
   "territorialimperative": {
     "name": "Territorial Imperative",
     "side": "Killer",
-    "description": "Unlocks potential in one's aura reading ability. Survivors' auras are revealed to you for {0} seconds when they enter the basement and you are more than {1} meters away from the basement entrance.Territorial Imperative can only be triggered once every {2} seconds.",
+    "description": "Unlocks potential in one's aura reading ability. Survivors' auras are revealed to you for {0} seconds when they enter the basement and you are more than 24 meters away from the basement entrance. Territorial Imperative can only be triggered once every 45 seconds.",
     "tier_values": [
       [
         4,
@@ -3615,7 +3615,7 @@
   "thanatophobia": {
     "name": "Thanatophobia",
     "side": "Killer",
-    "description": "Their courage fades in the face of undeniable mortality.For each injured, dying, or hooked Survivor, all Survivors receive a penalty of {0}% to repair, sabotage and Totem-cleansing speeds.If there are 4 injured, dying or hooked Survivors, there is an additional 12% penalty to repair, sabotage and Totem-cleansing speeds.",
+    "description": "Their courage fades in the face of undeniable mortality. For each injured, dying, or hooked Survivor, all Survivors receive a penalty of {0}% to repair, sabotage and Totem-cleansing speeds. If there are 4 injured, dying or hooked Survivors, there is an additional 12% penalty to repair, sabotage and Totem-cleansing speeds.",
     "tier_values": [
       [
         1,
@@ -3641,12 +3641,12 @@
   "thrillingtremors": {
     "name": "Thrilling Tremors",
     "side": "Killer",
-    "description": "Your dark designs and shrewd composure rouse The Entity.After picking up a Survivor, all Generators not being repaired by Survivors are blocked by The Entity and cannot be repaired for the next {0} seconds. Affected generators are highlighted by a white aura.Thrilling Tremors can only be triggered once every {1} seconds.",
+    "description": "Your dark designs and shrewd composure rouse The Entity. After picking up a Survivor, all Generators not being repaired by Survivors are blocked by The Entity and cannot be repaired for the next 16 seconds. Affected generators are highlighted by a white aura. Thrilling Tremors can only be triggered once every {0} seconds.",
     "tier_values": [
       [
-        100,
-        80,
-        60
+        40,
+        35,
+        30
       ]
     ],
     "icon_file": "thrillingTremors.webp"
@@ -3654,7 +3654,7 @@
   "thwack": {
     "name": "THWACK!",
     "side": "Killer",
-    "description": "Your prey is terrified by your relentless pursuit.THWACK! starts with {0} tokens.When breaking a pallet or breakable wall, consume a token.Survivors within {1} meters scream, and their auras are revealed for {2} seconds.When hooking a Survivor, regain {3} token.",
+    "description": "Your prey is terrified by your relentless pursuit.THWACK! starts with 3 tokens. When breaking a pallet or breakable wall, consume a token. Survivors within 36 meters scream, and their auras are revealed for {0} seconds. When hooking a Survivor, regain 1 token.",
     "tier_values": [
       [
         4,
@@ -3667,7 +3667,7 @@
   "tinkerer": {
     "name": "Tinkerer",
     "side": "Killer",
-    "description": "Whenever a generator is repaired to {0}% progress, it triggers a loud noise notification and you are granted the Undetectable status effect for the next {2} seconds. This effect can only be triggered once on each generator.Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
+    "description": "Whenever a generator is repaired to 70% progress, it triggers a loud noise notification and you are granted the Undetectable status effect for the next {0} seconds. This effect can only be triggered once on each generator. Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
     "tier_values": [
       [
         12,
@@ -3680,12 +3680,12 @@
   "trailoftorment": {
     "name": "Trail of Torment",
     "side": "Killer",
-    "description": "You guide your victims along a path of pain and punishment.After damaging a generator, you become Undetectable until the generator stops regressing. During this time, the generator's yellow aura is revealed to Survivors.This effect can only trigger once every {2} seconds.Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
+    "description": "You guide your victims along a path of pain and punishment. After damaging a generator, you become Undetectable until the generator stops regressing. During this time, the generator's yellow aura is revealed to Survivors. This effect can only trigger once every {0} seconds. Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
     "tier_values": [
       [
-        80,
-        70,
-        60
+        60,
+        45,
+        30
       ]
     ],
     "icon_file": "trailOfTorment.webp"
@@ -3693,12 +3693,17 @@
   "troubleshooter": {
     "name": "Troubleshooter",
     "side": "Survivor",
-    "description": "No amount of distraction will shake you from your primary task.When you are chased by the Killer, Troubleshooter activates.You see the aura of the Generator with the most progress.You see the aura of the Killer for {0} seconds after dropping a Pallet.The effect lasts for {1} seconds after being in chase, then deactivates.",
+    "description": "No amount of distraction will shake you from your primary task. When you are chased by the Killer, Troubleshooter activates. You see the aura of the Generator with the most progress. You see the aura of the Killer for {0} seconds after dropping a Pallet. The effect lasts for {1} seconds after being in chase, then deactivates.",
     "tier_values": [
       [
         4,
         5,
         6
+      ],
+      [
+        6,
+        8,
+        10
       ]
     ],
     "icon_file": "troubleshooter.webp"
@@ -3706,7 +3711,7 @@
   "turnbacktheclock": {
     "name": "Turn Back The Clock",
     "side": "Killer",
-    "description": "Resist as they might, time marches on, and your master plan comes closer to fruition.After hooking a Survivor, for {0} seconds, press the Ability button 1 to make a target generator you can see within {1} meters explode, lose {2}% progress and start regressing.“Nothing will happen to you... Nothing that you don't deserve!” —Henry Creel",
+    "description": "Resist as they might, time marches on, and your master plan comes closer to fruition. After hooking a Survivor, for {0} seconds, press the Ability button 1 to make a target generator you can see within 20 meters explode, lose 10% progress and start regressing. “Nothing will happen to you... Nothing that you don't deserve!” —Henry Creel",
     "tier_values": [
       [
         40,
@@ -3719,12 +3724,12 @@
   "ultimateweapon": {
     "name": "Ultimate Weapon",
     "side": "Killer",
-    "description": "When they spot you, they know the end is near.When you open a locker, all Survivors within {0} meters of the locker scream and reveal their position, then gain Blindness for {1} seconds.This perk goes on cooldown for {2} seconds.Blindness prevents Survivors from seeing auras.“I can't lie to you about your chances, but... you have my sympathies.” –Ash",
+    "description": "When they spot you, they know the end is near. When you open a locker, all Survivors within 40 meters of the locker scream and reveal their position, then gain Blindness for 30 seconds. This perk goes on cooldown for {0} seconds. Blindness prevents Survivors from seeing auras.“I can't lie to you about your chances, but... you have my sympathies.” –Ash",
     "tier_values": [
       [
-        40,
-        35,
-        30
+        55,
+        50,
+        45
       ]
     ],
     "icon_file": "ultimateWeapon.webp"
@@ -3732,12 +3737,12 @@
   "unbound": {
     "name": "Unbound",
     "side": "Killer",
-    "description": "Pain lingers in the air, an alluring aroma that excites the impulses.This perk activates for {0} seconds after a Survivor becomes injured by any means.After vaulting a window, you gain {1}% Haste for {2} seconds.Haste increases Killer movement speed.\"I heard it. Running. It was getting closer!” - Anonymous Testimony, 09/09/1979",
+    "description": "Pain lingers in the air, an alluring aroma that excites the impulses. This perk activates for {0} seconds after a Survivor becomes injured by any means.  vaulting a window, you gain 7% Haste for 10 seconds. Haste increases Killer movement speed.\"I heard it. Running. It was getting closer!” - Anonymous Testimony, 09/09/1979",
     "tier_values": [
       [
-        9.0,
-        9.0,
-        1979.0
+        24,
+        27,
+        30
       ]
     ],
     "icon_file": "unbound.webp"
@@ -3758,7 +3763,7 @@
   "undone": {
     "name": "Undone",
     "side": "Killer",
-    "description": "Hope is the delusion that keeps its victims alive.When a Survivor misses a healing or repair Skill Check, gain 3 tokens, up to {0}.When you perform the damage action on a generator, if you have any tokens, consume all of them. For each token consumed, the generator loses {1}% total progress and then becomes blocked for {2} second. Then, once the generator is unblocked, it starts regressing.This perk goes on cooldown for {3} seconds.\"Erratic behavior in machinery could be related to [REDACTED], further testing required.” - OSS Report, 12/02/1943",
+    "description": "Hope is the delusion that keeps its victims alive. When a Survivor misses a healing or repair Skill Check, gain 3 tokens, up to {0}. When you perform the damage action on a generator, if you have any tokens, consume all of them. For each token consumed, the generator loses 1% total progress and then becomes blocked for 1 second. Then, once the generator is unblocked, it starts regressing.This perk goes on cooldown for 60 seconds.\"Erratic behavior in machinery could be related to [REDACTED], further testing required.” - OSS Report, 12/02/1943",
     "tier_values": [
       [
         18,
@@ -3784,7 +3789,7 @@
   "unnervingpresence": {
     "name": "Unnerving Presence",
     "side": "Killer",
-    "description": "Your presence alone instills great fear.Survivors within your Terror Radius have a {0}% greater chance of triggering Skill Checks when repairing or healing. Triggered Skill Checks' success zones are reduced by {1}%.",
+    "description": "Your presence alone instills great fear. Survivors within your Terror Radius have a 10% greater chance of triggering Skill Checks when repairing or healing. Triggered Skill Checks' success zones are reduced by {0}%.",
     "tier_values": [
       [
         40,
@@ -3810,7 +3815,7 @@
   "uptheante": {
     "name": "Up the Ante",
     "side": "Survivor",
-    "description": "All will be well in the end; you just know it. Your confidence strengthens the feeling of hope for those around you.For each other Survivor still alive, grant a {0}% bonus of luck to all remaining Survivors.Unlocks the ability to attempt to unhook yourself for all Survivors.",
+    "description": "All will be well in the end; you just know it. Your confidence strengthens the feeling of hope for those around you. For each other Survivor still alive, grant a {0}% bonus of luck to all remaining Survivors. Unlocks the ability to attempt to unhook yourself for all Survivors.",
     "tier_values": [
       [
         1,
@@ -3823,7 +3828,7 @@
   "urbanevasion": {
     "name": "Urban Evasion",
     "side": "Survivor",
-    "description": "Years of evading the cops taught you a thing or two about stealth.While crouching, you have {0}% Haste.Haste increases Survivor movement speed.",
+    "description": "Years of evading the cops taught you a thing or two about stealth. While crouching, you have {0}% Haste. Haste increases Survivor movement speed.",
     "tier_values": [
       [
         90,
@@ -3836,7 +3841,7 @@
   "vigil": {
     "name": "Vigil",
     "side": "Survivor",
-    "description": "You look over your friends even in dire situations.You and Survivors within {0} meters recover {1}% faster from the Blindness, Broken, Exhausted, Exposed, Hemorrhage, Hindered, Mangled and Oblivious status effects.Survivors can only be affected by one Vigil's effect at a time.Once out of range, this effect persists for {2} seconds.",
+    "description": "You look over your friends even in dire situations. You and Survivors within 16 meters recover {0}% faster from the Blindness, Broken, Exhausted, Exposed, Hemorrhage, Hindered, Mangled and Oblivious status effects.Survivors can only be affected by one Vigil's effect at a time. Once out of range, this effect persists for 15 seconds.",
     "tier_values": [
       [
         43,
@@ -3849,12 +3854,12 @@
   "visionary": {
     "name": "Visionary",
     "side": "Survivor",
-    "description": "You're remarkably focused on your means of escape.You see generator's auras within {0} meters.Anytime a generator is completed, Visionary is disabled for {1} seconds.",
+    "description": "You're remarkably focused on your means of escape.You see generator's auras within 32 meters. Anytime a generator is completed, Visionary is disabled for {0} seconds.",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        20,
+        18,
+        16
       ]
     ],
     "icon_file": "visionary.webp"
@@ -3862,7 +3867,7 @@
   "wakeup": {
     "name": "Wake Up!",
     "side": "Survivor",
-    "description": "Unlocks potential in one's aura reading ability. Once all generators are powered, exit gates are revealed to you. While opening the exit gates, reveal your aura to other Survivors.While this perk is active, open the exit gates {0}% faster for each Survivor still alive.",
+    "description": "Unlocks potential in one's aura reading ability. Once all generators are powered, exit gates are revealed to you. While opening the exit gates, reveal your aura to other Survivors. While this perk is active, open the exit gates {0}% faster for each Survivor still alive.",
     "tier_values": [
       [
         8,
@@ -3875,12 +3880,12 @@
   "wanderingeye": {
     "name": "Wandering Eye",
     "side": "Killer",
-    "description": "Bloodied prey surrounds you, vying for your attention.Whenever you start chasing a Survivor, reveal the auras of all other injured Survivors within {0} meters for {1} seconds.This perk has a {2}-second cooldown.“A drop does not satiate/when a river is needed.”—Elliot Campbell's “Grandeur of Samuel”",
+    "description": "Bloodied prey surrounds you, vying for your attention. Whenever you start chasing a Survivor, reveal the auras of all other injured Survivors within 20 meters for 5 seconds. This perk has a {0} second cooldown. “A drop does not satiate/when a river is needed.”—Elliot Campbell's “Grandeur of Samuel”",
     "tier_values": [
       [
-        0,
-        0,
-        0
+        40,
+        35,
+        30
       ]
     ],
     "icon_file": "wanderingEye.webp"
@@ -3888,7 +3893,7 @@
   "weseeyou": {
     "name": "We See You",
     "side": "Survivor",
-    "description": "You've honed your powers and can turn the table on those who try to find you.Gain 1 token when the Killer reveals your aura.When you have {0} tokens, they are all consumed, and the Killer's aura is revealed to you and all other Survivors for {1} seconds.This perk has a {2}-second cooldown.“It is not me. It is you. You are the monster.” —Eleven",
+    "description": "You've honed your powers and can turn the table on those who try to find you. Gain 1 token when the Killer reveals your aura. When you have 4 tokens, they are all consumed, and the Killer's aura is revealed to you and all other Survivors for {0} seconds. This perk has a 10-second cooldown. “It is not me. It is you. You are the monster.” —Eleven",
     "tier_values": [
       [
         10,
@@ -3901,7 +3906,7 @@
   "wellmakeit": {
     "name": "We'll Make It",
     "side": "Survivor",
-    "description": "Helping others heightens your morale.When you rescue a Survivor from a hook, gain a {0}% speed increase while healing others for {1} seconds.",
+    "description": "Helping others heightens your morale. When you rescue a Survivor from a hook, gain a 100% speed increase while healing others for {0} seconds.",
     "tier_values": [
       [
         30,
@@ -3914,7 +3919,7 @@
   "weregonnaliveforever": {
     "name": "We're Gonna Live Forever",
     "side": "Survivor",
-    "description": "Your few friends deserve the best protection.When healing another Survivor in the dying state, your healing speed is increased by {0}%.Once healing is complete, the healed Survivor gains the Endurance status effect for {1} seconds. This effect has a {2}-second cooldown.Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
+    "description": "Your few friends deserve the best protection. When healing another Survivor in the dying state, your healing speed is increased by 100%. Once healing is complete, the healed Survivor gains the Endurance status effect for {0} seconds. This effect has a 30-second cooldown.Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
     "tier_values": [
       [
         6,
@@ -3927,7 +3932,7 @@
   "weaveattunement": {
     "name": "Weave Attunement",
     "side": "Killer",
-    "description": "You are so attuned to magical energies that you can sense even minor ripples around enchantments.When an item becomes depleted for the first time, it is dropped. You see the auras of dropped items.Survivors within {0} meters of dropped items have their auras revealed to you. Affected Survivors see the item's aura.When a Survivor picks up a Survivor item, they suffer from the Oblivious status effect for {1} seconds.Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.“No number of novelties will protect you from me!” - Vecna",
+    "description": "You are so attuned to magical energies that you can sense even minor ripples around enchantments. When an item becomes depleted for the first time, it is dropped. You see the auras of dropped items. Survivors within 32 meters of dropped items have their auras revealed to you. Affected Survivors see the item's aura. When a Survivor picks up a Survivor item, they suffer from the Oblivious status effect for {0} seconds. Oblivious prevents Survivors from hearing or being affected by the Killer's Terror Radius.“No number of novelties will protect you from me!” - Vecna",
     "tier_values": [
       [
         20,
@@ -3940,7 +3945,7 @@
   "whispers": {
     "name": "Whispers",
     "side": "Killer",
-    "description": "You have a rudimentary understanding of The Entity's voice.Sporadically hear The Entity's whisper when standing within a {0} meter range of a Survivor.",
+    "description": "You have a rudimentary understanding of The Entity's voice. Sporadically hear The Entity's whisper when standing within a {0} meter range of a Survivor.",
     "tier_values": [
       [
         48,
@@ -3953,7 +3958,7 @@
   "wicked": {
     "name": "Wicked",
     "side": "Survivor",
-    "description": "They can try to hurt you. But you're not going down so easily.Your self-unhook attempts in the basement always succeed.When you are unhooked or unhook yourself, you see the Killer's aura for {0} seconds.“I haven't let anyone get in my way before. You think I'm gonna start now?” - Sable",
+    "description": "They can try to hurt you. But you're not going down so easily. Your self-unhook attempts in the basement always succeed. When you are unhooked or unhook yourself, you see the Killer's aura for {0} seconds.“I haven't let anyone get in my way before. You think I'm gonna start now?” - Sable",
     "tier_values": [
       [
         16,
@@ -3979,7 +3984,7 @@
   "wiretap": {
     "name": "Wiretap",
     "side": "Survivor",
-    "description": "You know that the best way to stay one step ahead is to keep tabs on the competition.Wiretap activates after completing a total of {1}% worth of repair progress on generators.When standing next to a generator, press the Active Ability button 2 to install a Wiretap, which stays active for {0} seconds.Affected generators will be revealed to all Survivors by a yellow aura. Only one Wiretap can be active on a generator.When the Killer enters within {3} meters of the generator, their aura is revealed to all Survivors.Wiretap deactivates when the generator is damaged by the Killer or when the timer expires.",
+    "description": "You know that the best way to stay one step ahead is to keep tabs on the competition. Wiretap activates after completing a total of 40% worth of repair progress on generators. When standing next to a generator, press the Active Ability button 2 to install a Wiretap, which stays active for {0} seconds. Affected generators will be revealed to all Survivors by a yellow aura. Only one Wiretap can be active on a generator. When the Killer enters within 14 meters of the generator, their aura is revealed to all Survivors. Wiretap deactivates when the generator is damaged by the Killer or when the timer expires.",
     "tier_values": [
       [
         100,
@@ -3992,7 +3997,7 @@
   "zanshintactics": {
     "name": "Zanshin Tactics",
     "side": "Killer",
-    "description": "You are mentally alert and aware of nearby enemies in retreat.Reveal the aura of pallets and vaults within {0} meters. Survivors who drop pallets are revealed to you for {1} seconds.",
+    "description": "You are mentally alert and aware of nearby enemies in retreat.Reveal the aura of pallets and vaults within 32 meters. Survivors who drop pallets are revealed to you for {0} seconds.",
     "tier_values": [
       [
         3,
