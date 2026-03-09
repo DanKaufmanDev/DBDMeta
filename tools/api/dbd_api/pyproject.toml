@@ -5,11 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "undetected-chromedriver>=3.5.5",
-    "selenium-stealth>=1.0.6",
-    "selenium>=4.20.0",
-    "beautifulsoup4>=4.14.3",
     "python-dotenv>=1.2.1",
-    "requests>=2.32.5",
     "supabase>=2.28.0",
+    "seleniumbase>=4.45.10",
 ]
