@@ -21,25 +21,26 @@ jobs:
           python-version: '3.10'
           enable-cache: true
 
-      - name: Setup Chrome
+      - name: Setup Chrome & Display
         run: |
           sudo apt-get update
-          sudo apt-get install -y google-chrome-stable xvfb
+          sudo apt-get install -y google-chrome-stable xvfb libnss3 libatk-bridge2.0-0 libcups2 libdrm2 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2
 
       - name: Install dependencies
         run: |
-          uv pip install undetected_chromedriver selenium supabase python-dotenv
+          uv pip install undetected_chromedriver selenium-stealth selenium supabase python-dotenv
 
       - name: Step 1 Run Scraper
         run: |
-          xvfb-run uv run tools/api/dbd_api/main.py
+          xvfb-run --server-args="-screen 0 1920x1080x24" uv run tools/api/dbd_api/main.py
 
       - name: Step 2 Commit and Push JSON changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/*.json
-          # Commit only if changes exist to avoid workflow failure
+          # Capture the error screenshot if it exists so it's not lost
+          git add data/last_error.png || true 
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update Metadata" && git push)
 
       - name: Step 3 Sync to Supabase
