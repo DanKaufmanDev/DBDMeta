@@ -28,7 +28,6 @@ jobs:
       - name: Install dependencies
         run: |
           uv pip install seleniumbase supabase python-dotenv
-          # SeleniumBase needs to fetch its own specific driver
           uv run sbase install chromedriver
 
       - name: Step 1 Run Scraper
