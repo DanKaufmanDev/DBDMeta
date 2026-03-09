@@ -1,11 +1,13 @@
 import json
 import time
 import sys
+import os
 import undetected_chromedriver as uc
+from selenium_stealth import stealth
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+    
 def get_stats_from_page(driver, regex_pattern):
     """Utility to run the regex extraction on the current page text."""
     return driver.execute_script(f"""
@@ -16,16 +18,13 @@ def get_stats_from_page(driver, regex_pattern):
         
         let match;
         while ((match = regex.exec(text)) !== null) {{
-            // Clean up the name by removing any leftover newlines caught by the dot-all match
             const name = match[1].replace(/\\n/g, '').trim();
-            
             if (['Search', 'RegisterLogin', 'General', 'Shown Stats', 'Pick Rate', 'Kill Rate'].includes(name)) continue;
 
             if (!seenNames.has(name) && name.length > 2) {{
                 results.push({{
                     name: name,
                     pick_rate: parseFloat(match[2]),
-                    // Check if group 3 exists (for Killers/Survivor perks) otherwise default to 0
                     kill_rate_or_escape: match[3] ? parseFloat(match[3]) : 0
                 }});
                 seenNames.add(name);
@@ -36,32 +35,53 @@ def get_stats_from_page(driver, regex_pattern):
 
 def scrape_dbd_meta():
     driver = None
-    
     options = uc.ChromeOptions()
-    options.add_argument("--headless=new")
+    
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1920,1080")
-    options.add_argument("--disable-gpu") 
-    options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36")
-
-    print("Starting Chrome...")
     
+    print("Starting Stealth Chrome...")
     try:
-        driver = uc.Chrome(options=options, version_main=144)
+        driver = uc.Chrome(options=options, use_subprocess=True, version_main=145)
+        
+        stealth(driver,
+            languages=["en-US", "en"],
+            vendor="Google Inc.",
+            platform="Win32",
+            webgl_vendor="Intel Inc.",
+            renderer="Intel Iris OpenGL Engine",
+            fix_hairline=True,
+        )
     except Exception as e:
-        print(f"Version 144 init failed, attempting auto-detection: {e}")
-        try:
-            driver = uc.Chrome(options=options)
-        except Exception as e2:
-            print(f"❌ Critical Failure: Could not start Chrome. {e2}")
-            sys.exit(1)
+        print(f"Critical Failure: Could not start Chrome. {e}")
+        sys.exit(1)
     
     try:
+        def wait_for_data():
+            """Enhanced wait logic to handle Cloudflare challenges."""
+            print(f"Waiting for page content... (Current Title: {driver.title})")
+            
+            if "Just a moment" in driver.title or "Cloudflare" in driver.page_source:
+                print("Cloudflare challenge detected. Waiting 20 seconds for auto-solve...")
+                time.sleep(20)
+            
+            try:
+                WebDriverWait(driver, 45).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "main"))
+                )
+                time.sleep(3) 
+                print("Content successfully loaded.")
+            except Exception:
+                print(f"Timed out or Cloudflare blocked. Title: {driver.title}")
+                driver.save_screenshot("data/error.png")
+
+        os.makedirs("data", exist_ok=True)
+
         # --- 1. KILLER STATS ---
         print("Fetching Killer Stats...")
         driver.get("https://nightlight.gg/killers/")
-        time.sleep(10)
+        wait_for_data()
         
         killer_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%[\s\S]*?(?:Kill Rate|Escape Rate)\n100%\n(\d+\.?\d*)%/gm"
         killer_stats = get_stats_from_page(driver, killer_regex)
@@ -73,8 +93,8 @@ def scrape_dbd_meta():
 
         # --- 2. SURVIVOR PERKS ---
         print("Fetching Survivor Perks...")
-        driver.get("https://nightlight.gg/perks/viewer?role=survivor&shown=pick%7Cescape_rate&sort=pick&start_days=28")
-        time.sleep(7)
+        driver.get("https://nightlight.gg/perks/viewer?role=survivor")
+        wait_for_data()
         
         perk_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%[\s\S]*?Escape Rate\n100%\n(\d+\.?\d*)%/gm"
         surv_perks = get_stats_from_page(driver, perk_regex)
@@ -86,8 +106,8 @@ def scrape_dbd_meta():
 
         # --- 3. KILLER PERKS ---
         print("Fetching Killer Perks...")
-        driver.get("https://nightlight.gg/perks/viewer?role=killer&shown=pick&sort=pick&start_days=28")
-        time.sleep(7)
+        driver.get("https://nightlight.gg/perks/viewer?role=killer")
+        wait_for_data()
         
         k_perk_regex = r"/^(.+)\n\d+ - [\d,]+ Games[\s\S]*?Pick Rate\n[\d.]+%?\n(\d+\.?\d*)%/gm"
         killer_perks = get_stats_from_page(driver, k_perk_regex)
@@ -101,6 +121,7 @@ def scrape_dbd_meta():
         print("Cleaning JSON files...")
         
         def clean_perk_names(file_path):
+            if not os.path.exists(file_path): return
             with open(file_path, "r") as f:
                 data = json.load(f)
             for item in data:
@@ -111,16 +132,17 @@ def scrape_dbd_meta():
         clean_perk_names("data/tkperksmetadata.json")
         clean_perk_names("data/tsperksmetadata.json")
 
-        with open("data/kmetadata.json", "r") as f:
-            k_data = json.load(f)
-        for item in k_data:
-            if item['name'] in ['Ghost Face', 'The Ghost Face']:
-                item['name'] = 'The Ghostface'
-            elif not item['name'].startswith("The "):
-                item['name'] = f"The {item['name']}"
-        
-        with open("data/kmetadata.json", "w") as f:
-            json.dump(k_data, f, indent=4)
+        if os.path.exists("data/kmetadata.json"):
+            with open("data/kmetadata.json", "r") as f:
+                k_data = json.load(f)
+            for item in k_data:
+                if item['name'] in ['Ghost Face', 'The Ghost Face']:
+                    item['name'] = 'The Ghostface'
+                elif not item['name'].startswith("The "):
+                    item['name'] = f"The {item['name']}"
+            
+            with open("data/kmetadata.json", "w") as f:
+                json.dump(k_data, f, indent=4)
 
         print("JSON files cleaned and standardized.")
 
