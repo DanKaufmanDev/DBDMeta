@@ -19,12 +19,6 @@ jobs:
         uses: astral-sh/setup-uv@v5
         with:
           python-version: '3.10'
-          enable-cache: true
-
-      - name: Setup Chrome & Display
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable xvfb
 
       - name: Install dependencies
         run: |
@@ -32,15 +26,13 @@ jobs:
 
       - name: Step 1 Run Scraper
         run: |
-          xvfb-run --server-args="-screen 0 1920x1080x24" uv run tools/api/dbd_api/main.py
+          uv run tools/api/dbd_api/main.py
 
       - name: Step 2 Commit and Push JSON changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add data/*.json
-          # Capture the error screenshot if it exists so it's not lost
-          git add data/last_error.png || true 
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update Metadata" && git push)
 
       - name: Step 3 Sync to Supabase
