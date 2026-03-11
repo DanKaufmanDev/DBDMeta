@@ -29,5 +29,7 @@ jobs:
           git config --local user.email "bot@github.com"
           git config --local user.name "EntityBot"
           git add last_intel.json
+          # Pull any remote changes first and rebase your new commit on top
+          git pull --rebase origin master 
           git commit -m "Update last seen article" || exit 0
-          git push
+          git push origin master
