@@ -73,7 +73,7 @@ def main():
             if article['id'] not in history[source_name]:
                 
                 # Only ping Discord if it's NOT the very first time running the script
-                if not is_first_run:
+                if True:
                     print(f"NEW INTEL: {article['title']}")
                     payload = {
                         "username": "THE ENTITY",
