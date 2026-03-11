@@ -32,7 +32,7 @@ def fetch_official_site():
 def fetch_steam_news():
     """Scrapes the Steam Community Hub for DBD."""
     try:
-        url = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210"
+        url = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=381210&count=10"
         response = requests.get(url, timeout=10)
         item = response.json()['appnews']['newsitems'][0]
         
