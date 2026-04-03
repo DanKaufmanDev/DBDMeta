@@ -1,772 +1,777 @@
 [
     {
-        "kill_rate_or_escape": 36.18,
+        "kill_rate_or_escape": 36.17,
         "name": "Windows of Opportunity",
-        "pick_rate": 26.03
+        "pick_rate": 25.91
     },
     {
-        "kill_rate_or_escape": 36.52,
+        "kill_rate_or_escape": 36.44,
         "name": "Lithe",
-        "pick_rate": 21.29
+        "pick_rate": 21.32
     },
     {
-        "kill_rate_or_escape": 37.52,
+        "kill_rate_or_escape": 37.38,
         "name": "Resilience",
         "pick_rate": 20.41
     },
     {
-        "kill_rate_or_escape": 37.1,
+        "kill_rate_or_escape": 37.04,
         "name": "Deja Vu",
-        "pick_rate": 20.09
+        "pick_rate": 20.13
     },
     {
-        "kill_rate_or_escape": 38.38,
+        "kill_rate_or_escape": 38.25,
         "name": "Decisive Strike",
-        "pick_rate": 15.84
+        "pick_rate": 15.74
     },
     {
-        "kill_rate_or_escape": 38.01,
+        "kill_rate_or_escape": 38.08,
         "name": "Dead Hard",
-        "pick_rate": 15.64
+        "pick_rate": 15.63
     },
     {
-        "kill_rate_or_escape": 38.35,
+        "kill_rate_or_escape": 38.47,
         "name": "Sprint Burst",
-        "pick_rate": 14.23
+        "pick_rate": 14.24
     },
     {
-        "kill_rate_or_escape": 37.35,
+        "kill_rate_or_escape": 37.28,
         "name": "Finesse",
-        "pick_rate": 13.69
+        "pick_rate": 13.71
     },
     {
-        "kill_rate_or_escape": 37.23,
+        "kill_rate_or_escape": 37.1,
         "name": "Iron Will",
-        "pick_rate": 9.39
+        "pick_rate": 9.4
     },
     {
-        "kill_rate_or_escape": 36.36,
+        "kill_rate_or_escape": 36.35,
         "name": "Adrenaline",
-        "pick_rate": 8.18
+        "pick_rate": 8.16
     },
     {
-        "kill_rate_or_escape": 35.38,
+        "kill_rate_or_escape": 35.46,
         "name": "Bond",
-        "pick_rate": 8.03
+        "pick_rate": 7.96
     },
     {
-        "kill_rate_or_escape": 40.66,
+        "kill_rate_or_escape": 40.44,
         "name": "Vigil",
-        "pick_rate": 7.11
+        "pick_rate": 7.14
     },
     {
-        "kill_rate_or_escape": 36.94,
+        "kill_rate_or_escape": 37.21,
         "name": "We'll make it",
         "pick_rate": 7.09
     },
     {
         "kill_rate_or_escape": 36.91,
         "name": "Kindred",
-        "pick_rate": 7.02
+        "pick_rate": 7.01
     },
     {
-        "kill_rate_or_escape": 36.1,
+        "kill_rate_or_escape": 36.02,
         "name": "Unbreakable",
-        "pick_rate": 6.99
+        "pick_rate": 6.96
     },
     {
-        "kill_rate_or_escape": 34.34,
+        "kill_rate_or_escape": 34.23,
         "name": "Prove Thyself",
-        "pick_rate": 6.2
+        "pick_rate": 6.18
     },
     {
-        "kill_rate_or_escape": 37.32,
+        "kill_rate_or_escape": 37.33,
         "name": "Botany Knowledge",
-        "pick_rate": 6.14
+        "pick_rate": 6.18
+    },
+    {
+        "kill_rate_or_escape": 36.77,
+        "name": "Fixated",
+        "pick_rate": 5.18
     },
     {
         "kill_rate_or_escape": 39.43,
         "name": "Resurgence",
-        "pick_rate": 5.08
+        "pick_rate": 5.12
     },
     {
-        "kill_rate_or_escape": 37.04,
-        "name": "Fixated",
-        "pick_rate": 5.05
-    },
-    {
-        "kill_rate_or_escape": 41.23,
+        "kill_rate_or_escape": 41.5,
         "name": "Fast Track",
-        "pick_rate": 4.39
+        "pick_rate": 4.51
     },
     {
-        "kill_rate_or_escape": 36.62,
-        "name": "Self-Care",
-        "pick_rate": 4.37
-    },
-    {
-        "kill_rate_or_escape": 35.37,
-        "name": "Blast Mine",
-        "pick_rate": 4.32
-    },
-    {
-        "kill_rate_or_escape": 41.67,
+        "kill_rate_or_escape": 41.19,
         "name": "Five Moves Ahead",
-        "pick_rate": 4.27
+        "pick_rate": 4.47
     },
     {
-        "kill_rate_or_escape": 37.85,
+        "kill_rate_or_escape": 36.43,
+        "name": "Self-Care",
+        "pick_rate": 4.34
+    },
+    {
+        "kill_rate_or_escape": 35.42,
+        "name": "Blast Mine",
+        "pick_rate": 4.3
+    },
+    {
+        "kill_rate_or_escape": 38.05,
         "name": "Balanced Landing",
-        "pick_rate": 3.85
+        "pick_rate": 3.81
     },
     {
-        "kill_rate_or_escape": 37.8,
-        "name": "We're Gonna Live Forever",
-        "pick_rate": 3.73
-    },
-    {
-        "kill_rate_or_escape": 33.46,
+        "kill_rate_or_escape": 33.77,
         "name": "Head On",
-        "pick_rate": 3.72
+        "pick_rate": 3.71
     },
     {
-        "kill_rate_or_escape": 40.12,
+        "kill_rate_or_escape": 37.95,
+        "name": "We're Gonna Live Forever",
+        "pick_rate": 3.7
+    },
+    {
+        "kill_rate_or_escape": 40.17,
         "name": "Stake Out",
-        "pick_rate": 3.62
+        "pick_rate": 3.6
     },
     {
-        "kill_rate_or_escape": 40.79,
+        "kill_rate_or_escape": 40.62,
         "name": "Hyperfocus",
-        "pick_rate": 3.53
+        "pick_rate": 3.49
     },
     {
-        "kill_rate_or_escape": 32.91,
-        "name": "Flashbang",
-        "pick_rate": 3.4
-    },
-    {
-        "kill_rate_or_escape": 33.97,
+        "kill_rate_or_escape": 33.93,
         "name": "Quick & Quiet",
-        "pick_rate": 3.34
+        "pick_rate": 3.37
     },
     {
-        "kill_rate_or_escape": 39.29,
-        "name": "Dramaturgy",
-        "pick_rate": 3.15
+        "kill_rate_or_escape": 33.21,
+        "name": "Flashbang",
+        "pick_rate": 3.36
     },
     {
-        "kill_rate_or_escape": 32.55,
+        "kill_rate_or_escape": 32.74,
         "name": "Background Player",
         "pick_rate": 3.13
     },
     {
-        "kill_rate_or_escape": 35.41,
-        "name": "Lightweight",
-        "pick_rate": 2.94
+        "kill_rate_or_escape": 38.89,
+        "name": "Dramaturgy",
+        "pick_rate": 3.13
     },
     {
-        "kill_rate_or_escape": 39.71,
+        "kill_rate_or_escape": 35.59,
+        "name": "Lightweight",
+        "pick_rate": 2.95
+    },
+    {
+        "kill_rate_or_escape": 39.93,
         "name": "Plot Twist",
         "pick_rate": 2.9
     },
     {
-        "kill_rate_or_escape": 38.3,
+        "kill_rate_or_escape": 38.62,
         "name": "Made for This",
-        "pick_rate": 2.88
+        "pick_rate": 2.87
     },
     {
-        "kill_rate_or_escape": 40.69,
+        "kill_rate_or_escape": 40.58,
         "name": "Deliverance",
-        "pick_rate": 2.69
+        "pick_rate": 2.64
     },
     {
-        "kill_rate_or_escape": 33.25,
+        "kill_rate_or_escape": 33.53,
         "name": "Champion of Light",
-        "pick_rate": 2.66
-    },
-    {
-        "kill_rate_or_escape": 32.79,
-        "name": "Boil Over",
         "pick_rate": 2.62
     },
     {
-        "kill_rate_or_escape": 38.1,
+        "kill_rate_or_escape": 33,
+        "name": "Boil Over",
+        "pick_rate": 2.61
+    },
+    {
+        "kill_rate_or_escape": 38.08,
         "name": "Inner Strength",
         "pick_rate": 2.58
     },
     {
-        "kill_rate_or_escape": 37.17,
+        "kill_rate_or_escape": 37.15,
         "name": "Built to Last",
-        "pick_rate": 2.37
+        "pick_rate": 2.36
     },
     {
-        "kill_rate_or_escape": 34.98,
+        "kill_rate_or_escape": 35.2,
         "name": "Alert",
-        "pick_rate": 2.26
+        "pick_rate": 2.27
     },
     {
-        "kill_rate_or_escape": 36.79,
+        "kill_rate_or_escape": 36.78,
         "name": "Hope",
         "pick_rate": 2.23
     },
     {
-        "kill_rate_or_escape": 33.18,
+        "kill_rate_or_escape": 33.44,
         "name": "Empathy",
-        "pick_rate": 2.17
+        "pick_rate": 2.18
     },
     {
-        "kill_rate_or_escape": 36.98,
+        "kill_rate_or_escape": 36.25,
+        "name": "Urban Evasion",
+        "pick_rate": 2.05
+    },
+    {
+        "kill_rate_or_escape": 36.91,
         "name": "Boon: Circle of Healing",
         "pick_rate": 2.02
     },
     {
-        "kill_rate_or_escape": 36.32,
-        "name": "Urban Evasion",
-        "pick_rate": 2.01
+        "kill_rate_or_escape": 46.07,
+        "name": "Flow State",
+        "pick_rate": 1.85
     },
     {
-        "kill_rate_or_escape": 34.51,
-        "name": "Chemical Trap",
-        "pick_rate": 1.84
-    },
-    {
-        "kill_rate_or_escape": 34.98,
+        "kill_rate_or_escape": 34.9,
         "name": "Conviction",
         "pick_rate": 1.81
     },
     {
-        "kill_rate_or_escape": 46.22,
-        "name": "Flow State",
-        "pick_rate": 1.79
+        "kill_rate_or_escape": 34.29,
+        "name": "Chemical Trap",
+        "pick_rate": 1.81
     },
     {
-        "kill_rate_or_escape": 39.54,
+        "kill_rate_or_escape": 39.2,
         "name": "Desperate Measures",
         "pick_rate": 1.78
     },
     {
-        "kill_rate_or_escape": 29.23,
+        "kill_rate_or_escape": 29.52,
         "name": "Breakout",
-        "pick_rate": 1.71
+        "pick_rate": 1.72
     },
     {
-        "kill_rate_or_escape": 35.92,
+        "kill_rate_or_escape": 36.58,
         "name": "Extrasensory Perception",
-        "pick_rate": 1.7
+        "pick_rate": 1.69
     },
     {
-        "kill_rate_or_escape": 35.48,
+        "kill_rate_or_escape": 35.59,
         "name": "Boon: Shadow Step",
-        "pick_rate": 1.65
+        "pick_rate": 1.64
     },
     {
-        "kill_rate_or_escape": 38.74,
-        "name": "Off the Record",
-        "pick_rate": 1.63
-    },
-    {
-        "kill_rate_or_escape": 29.93,
+        "kill_rate_or_escape": 30.17,
         "name": "Saboteur",
         "pick_rate": 1.63
     },
     {
-        "kill_rate_or_escape": 39.94,
+        "kill_rate_or_escape": 38.45,
+        "name": "Off the Record",
+        "pick_rate": 1.62
+    },
+    {
+        "kill_rate_or_escape": 39.54,
         "name": "Left Behind",
-        "pick_rate": 1.61
+        "pick_rate": 1.6
     },
     {
-        "kill_rate_or_escape": 40.82,
+        "kill_rate_or_escape": 41.02,
         "name": "Distortion",
-        "pick_rate": 1.54
+        "pick_rate": 1.57
     },
     {
-        "kill_rate_or_escape": 33.85,
-        "name": "Object of Obsession",
-        "pick_rate": 1.53
-    },
-    {
-        "kill_rate_or_escape": 37.98,
+        "kill_rate_or_escape": 38.18,
         "name": "Ghost Notes",
         "pick_rate": 1.51
     },
     {
-        "kill_rate_or_escape": 37.67,
+        "kill_rate_or_escape": 33.72,
+        "name": "Object of Obsession",
+        "pick_rate": 1.51
+    },
+    {
+        "kill_rate_or_escape": 37.29,
         "name": "Any Means Necessary",
-        "pick_rate": 1.47
+        "pick_rate": 1.46
     },
     {
-        "kill_rate_or_escape": 36.34,
+        "kill_rate_or_escape": 36.75,
         "name": "Dance With Me",
-        "pick_rate": 1.44
+        "pick_rate": 1.45
     },
     {
-        "kill_rate_or_escape": 37.75,
+        "kill_rate_or_escape": 38.03,
         "name": "Boon: Exponential",
         "pick_rate": 1.43
     },
     {
-        "kill_rate_or_escape": 39.36,
+        "kill_rate_or_escape": 38.91,
         "name": "Shoulder the Burden",
-        "pick_rate": 1.39
-    },
-    {
-        "kill_rate_or_escape": 36.74,
-        "name": "Scene Partner",
-        "pick_rate": 1.38
-    },
-    {
-        "kill_rate_or_escape": 33.92,
-        "name": "Last Stand",
         "pick_rate": 1.37
     },
     {
-        "kill_rate_or_escape": 38.04,
+        "kill_rate_or_escape": 35.59,
+        "name": "Scene Partner",
+        "pick_rate": 1.36
+    },
+    {
+        "kill_rate_or_escape": 33.93,
+        "name": "Last Stand",
+        "pick_rate": 1.36
+    },
+    {
+        "kill_rate_or_escape": 37.98,
         "name": "Do No Harm",
-        "pick_rate": 1.35
+        "pick_rate": 1.34
     },
     {
-        "kill_rate_or_escape": 34.78,
+        "kill_rate_or_escape": 34.79,
         "name": "Lucky Break",
-        "pick_rate": 1.3
+        "pick_rate": 1.31
     },
     {
-        "kill_rate_or_escape": 29.5,
+        "kill_rate_or_escape": 29.11,
         "name": "Technician",
         "pick_rate": 1.29
     },
     {
-        "kill_rate_or_escape": 37.23,
+        "kill_rate_or_escape": 37.26,
         "name": "Autodidact",
-        "pick_rate": 1.29
+        "pick_rate": 1.28
     },
     {
-        "kill_rate_or_escape": 34.75,
-        "name": "Teamwork: Full Circuit",
-        "pick_rate": 1.25
-    },
-    {
-        "kill_rate_or_escape": 33.52,
+        "kill_rate_or_escape": 33.8,
         "name": "Quick Gambit",
         "pick_rate": 1.24
     },
     {
-        "kill_rate_or_escape": 34.31,
-        "name": "Wiretap",
-        "pick_rate": 1.23
-    },
-    {
-        "kill_rate_or_escape": 35.75,
+        "kill_rate_or_escape": 35.89,
         "name": "Strength in Shadows",
-        "pick_rate": 1.23
+        "pick_rate": 1.24
     },
     {
-        "kill_rate_or_escape": 37.3,
+        "kill_rate_or_escape": 33.9,
+        "name": "Wiretap",
+        "pick_rate": 1.22
+    },
+    {
+        "kill_rate_or_escape": 35.19,
+        "name": "Teamwork: Full Circuit",
+        "pick_rate": 1.21
+    },
+    {
+        "kill_rate_or_escape": 37.16,
+        "name": "Babysitter",
+        "pick_rate": 1.2
+    },
+    {
+        "kill_rate_or_escape": 37.34,
         "name": "Overcome",
         "pick_rate": 1.19
     },
     {
-        "kill_rate_or_escape": 37.39,
-        "name": "Babysitter",
-        "pick_rate": 1.18
+        "kill_rate_or_escape": 35.62,
+        "name": "Deception",
+        "pick_rate": 1.16
+    },
+    {
+        "kill_rate_or_escape": 35.64,
+        "name": "Teamwork: Soft-Spoken",
+        "pick_rate": 1.15
+    },
+    {
+        "kill_rate_or_escape": 35.31,
+        "name": "No One Left Behind",
+        "pick_rate": 1.14
+    },
+    {
+        "kill_rate_or_escape": 37.76,
+        "name": "Smash Hit",
+        "pick_rate": 1.09
     },
     {
         "kill_rate_or_escape": 35.38,
-        "name": "Deception",
-        "pick_rate": 1.17
-    },
-    {
-        "kill_rate_or_escape": 36.01,
-        "name": "Teamwork: Soft-Spoken",
-        "pick_rate": 1.17
-    },
-    {
-        "kill_rate_or_escape": 35.53,
-        "name": "No One Left Behind",
-        "pick_rate": 1.12
-    },
-    {
-        "kill_rate_or_escape": 37.74,
-        "name": "Smash Hit",
-        "pick_rate": 1.08
-    },
-    {
-        "kill_rate_or_escape": 35.94,
         "name": "Soul Guard",
         "pick_rate": 1.07
     },
     {
-        "kill_rate_or_escape": 34.73,
+        "kill_rate_or_escape": 34.75,
         "name": "Flip-Flop",
-        "pick_rate": 1.07
+        "pick_rate": 1.06
     },
     {
-        "kill_rate_or_escape": 38.31,
+        "kill_rate_or_escape": 39.14,
         "name": "Overzealous",
         "pick_rate": 1.05
     },
     {
-        "kill_rate_or_escape": 35.27,
+        "kill_rate_or_escape": 35.54,
         "name": "Poised",
-        "pick_rate": 1.03
+        "pick_rate": 1.02
     },
     {
-        "kill_rate_or_escape": 35.46,
+        "kill_rate_or_escape": 35.2,
         "name": "Leader",
         "pick_rate": 0.99
     },
     {
-        "kill_rate_or_escape": 37.25,
+        "kill_rate_or_escape": 37.81,
         "name": "Empathic Connection",
+        "pick_rate": 0.97
+    },
+    {
+        "kill_rate_or_escape": 30.63,
+        "name": "Spine Chill",
         "pick_rate": 0.96
     },
     {
-        "kill_rate_or_escape": 30.45,
-        "name": "Spine Chill",
-        "pick_rate": 0.95
-    },
-    {
-        "kill_rate_or_escape": 39.67,
+        "kill_rate_or_escape": 40.07,
         "name": "Counterforce",
         "pick_rate": 0.95
     },
     {
-        "kill_rate_or_escape": 31.23,
+        "kill_rate_or_escape": 31.51,
         "name": "Dark Sense",
-        "pick_rate": 0.95
+        "pick_rate": 0.92
     },
     {
-        "kill_rate_or_escape": 38.48,
-        "name": "Bardic Inspiration",
-        "pick_rate": 0.94
-    },
-    {
-        "kill_rate_or_escape": 38.14,
+        "kill_rate_or_escape": 36.97,
         "name": "Tenacity",
-        "pick_rate": 0.9
+        "pick_rate": 0.91
     },
     {
-        "kill_rate_or_escape": 42.45,
+        "kill_rate_or_escape": 37.57,
+        "name": "Bardic Inspiration",
+        "pick_rate": 0.91
+    },
+    {
+        "kill_rate_or_escape": 42.47,
         "name": "Reassurance",
         "pick_rate": 0.9
     },
     {
-        "kill_rate_or_escape": 34.96,
+        "kill_rate_or_escape": 35.25,
         "name": "Power Struggle",
         "pick_rate": 0.88
     },
     {
-        "kill_rate_or_escape": 31.94,
+        "kill_rate_or_escape": 32.21,
         "name": "Calm Spirit",
         "pick_rate": 0.82
     },
     {
-        "kill_rate_or_escape": 30.28,
+        "kill_rate_or_escape": 29.74,
         "name": "Bite the Bullet",
-        "pick_rate": 0.8
+        "pick_rate": 0.81
     },
     {
-        "kill_rate_or_escape": 42.33,
+        "kill_rate_or_escape": 42.83,
         "name": "For the People",
         "pick_rate": 0.79
     },
     {
-        "kill_rate_or_escape": 44.81,
+        "kill_rate_or_escape": 44.97,
         "name": "Open-Handed",
         "pick_rate": 0.78
     },
     {
-        "kill_rate_or_escape": 38.89,
+        "kill_rate_or_escape": 39.35,
         "name": "ONE-TWO-THREE-FOUR!",
-        "pick_rate": 0.77
+        "pick_rate": 0.75
     },
     {
-        "kill_rate_or_escape": 36.24,
-        "name": "We See You",
-        "pick_rate": 0.77
-    },
-    {
-        "kill_rate_or_escape": 32.18,
+        "kill_rate_or_escape": 32.71,
         "name": "Borrowed Time",
         "pick_rate": 0.74
     },
     {
-        "kill_rate_or_escape": 36.28,
+        "kill_rate_or_escape": 43.4,
+        "name": "Self-Preservation",
+        "pick_rate": 0.74
+    },
+    {
+        "kill_rate_or_escape": 35.9,
+        "name": "We See You",
+        "pick_rate": 0.74
+    },
+    {
+        "kill_rate_or_escape": 31.9,
+        "name": "Potential Energy",
+        "pick_rate": 0.73
+    },
+    {
+        "kill_rate_or_escape": 36.47,
         "name": "Plunderer's Instinct",
         "pick_rate": 0.72
     },
     {
-        "kill_rate_or_escape": 31.87,
-        "name": "Potential Energy",
-        "pick_rate": 0.7
-    },
-    {
-        "kill_rate_or_escape": 42.43,
-        "name": "Self-Preservation",
-        "pick_rate": 0.69
-    },
-    {
-        "kill_rate_or_escape": 38.36,
+        "kill_rate_or_escape": 38.18,
         "name": "Sole Survivor",
         "pick_rate": 0.67
     },
     {
-        "kill_rate_or_escape": 40,
+        "kill_rate_or_escape": 39.74,
         "name": "Second Wind",
-        "pick_rate": 0.65
+        "pick_rate": 0.66
     },
     {
-        "kill_rate_or_escape": 28.61,
+        "kill_rate_or_escape": 29.07,
         "name": "Slippery Meat",
         "pick_rate": 0.65
     },
     {
-        "kill_rate_or_escape": 41.87,
+        "kill_rate_or_escape": 41.8,
         "name": "Exultation",
         "pick_rate": 0.64
     },
     {
-        "kill_rate_or_escape": 39.35,
+        "kill_rate_or_escape": 39.07,
         "name": "Fogwise",
         "pick_rate": 0.64
     },
     {
-        "kill_rate_or_escape": 37.5,
+        "kill_rate_or_escape": 35.29,
+        "name": "Solidarity",
+        "pick_rate": 0.62
+    },
+    {
+        "kill_rate_or_escape": 52.94,
+        "name": "A Place For Us",
+        "pick_rate": 0.62
+    },
+    {
+        "kill_rate_or_escape": 37.92,
         "name": "Diversion",
         "pick_rate": 0.62
     },
     {
-        "kill_rate_or_escape": 34.92,
-        "name": "Solidarity",
-        "pick_rate": 0.61
-    },
-    {
-        "kill_rate_or_escape": 52.81,
-        "name": "A Place For Us",
-        "pick_rate": 0.61
-    },
-    {
-        "kill_rate_or_escape": 32.15,
-        "name": "Premonition",
-        "pick_rate": 0.58
-    },
-    {
-        "kill_rate_or_escape": 37.5,
+        "kill_rate_or_escape": 36.8,
         "name": "Wicked",
-        "pick_rate": 0.58
+        "pick_rate": 0.59
     },
     {
-        "kill_rate_or_escape": 32.71,
-        "name": "Bada Bada Boom",
-        "pick_rate": 0.55
+        "kill_rate_or_escape": 32.73,
+        "name": "Premonition",
+        "pick_rate": 0.57
     },
     {
-        "kill_rate_or_escape": 43.48,
+        "kill_rate_or_escape": 43.31,
         "name": "Boon: Dark Theory",
         "pick_rate": 0.55
     },
     {
-        "kill_rate_or_escape": 32.91,
-        "name": "No Mither",
-        "pick_rate": 0.54
-    },
-    {
-        "kill_rate_or_escape": 32.49,
+        "kill_rate_or_escape": 32.38,
         "name": "Invocation: Weaving Spiders",
+        "pick_rate": 0.55
+    },
+    {
+        "kill_rate_or_escape": 32.36,
+        "name": "Bada Bada Boom",
         "pick_rate": 0.54
     },
     {
-        "kill_rate_or_escape": 34.84,
-        "name": "Residual Manifest",
+        "kill_rate_or_escape": 33.77,
+        "name": "No Mither",
         "pick_rate": 0.53
     },
     {
-        "kill_rate_or_escape": 39.03,
-        "name": "Wake Up!",
-        "pick_rate": 0.53
-    },
-    {
-        "kill_rate_or_escape": 31.73,
+        "kill_rate_or_escape": 31.82,
         "name": "This Is Not Happening",
         "pick_rate": 0.53
     },
     {
-        "kill_rate_or_escape": 34.05,
-        "name": "Light-footed",
+        "kill_rate_or_escape": 37.99,
+        "name": "Wake Up!",
+        "pick_rate": 0.53
+    },
+    {
+        "kill_rate_or_escape": 34.44,
+        "name": "Residual Manifest",
+        "pick_rate": 0.52
+    },
+    {
+        "kill_rate_or_escape": 39.86,
+        "name": "Specialist",
         "pick_rate": 0.48
     },
     {
-        "kill_rate_or_escape": 39.35,
-        "name": "Specialist",
-        "pick_rate": 0.47
+        "kill_rate_or_escape": 34.83,
+        "name": "Light-footed",
+        "pick_rate": 0.46
     },
     {
-        "kill_rate_or_escape": 36.43,
-        "name": "Friendly Competition",
-        "pick_rate": 0.44
-    },
-    {
-        "kill_rate_or_escape": 33.07,
+        "kill_rate_or_escape": 32.93,
         "name": "Eyes of Belmont",
         "pick_rate": 0.43
     },
     {
-        "kill_rate_or_escape": 31.58,
+        "kill_rate_or_escape": 36.8,
+        "name": "Friendly Competition",
+        "pick_rate": 0.43
+    },
+    {
+        "kill_rate_or_escape": 31.33,
         "name": "Small Game",
-        "pick_rate": 0.42
+        "pick_rate": 0.43
     },
     {
-        "kill_rate_or_escape": 40.17,
-        "name": "Appraisal",
-        "pick_rate": 0.4
-    },
-    {
-        "kill_rate_or_escape": 31,
+        "kill_rate_or_escape": 30.97,
         "name": "Troubleshooter",
         "pick_rate": 0.39
     },
     {
-        "kill_rate_or_escape": 24.78,
+        "kill_rate_or_escape": 40.09,
+        "name": "Appraisal",
+        "pick_rate": 0.39
+    },
+    {
+        "kill_rate_or_escape": 24.66,
         "name": "Pharmacy",
         "pick_rate": 0.39
     },
     {
-        "kill_rate_or_escape": 40.38,
-        "name": "Ace in the Hole",
-        "pick_rate": 0.36
-    },
-    {
-        "kill_rate_or_escape": 36.36,
+        "kill_rate_or_escape": 35.71,
         "name": "Clairvoyance",
         "pick_rate": 0.36
     },
     {
-        "kill_rate_or_escape": 32.66,
-        "name": "Teamwork: Power of Two",
-        "pick_rate": 0.34
+        "kill_rate_or_escape": 39.5,
+        "name": "Ace in the Hole",
+        "pick_rate": 0.35
     },
     {
-        "kill_rate_or_escape": 34.74,
-        "name": "Mirrored Illusion",
-        "pick_rate": 0.33
-    },
-    {
-        "kill_rate_or_escape": 43.01,
+        "kill_rate_or_escape": 40.63,
         "name": "Reactive Healing",
         "pick_rate": 0.33
     },
     {
-        "kill_rate_or_escape": 41.75,
-        "name": "Streetwise",
+        "kill_rate_or_escape": 33.33,
+        "name": "Teamwork: Power of Two",
         "pick_rate": 0.33
     },
     {
-        "kill_rate_or_escape": 34.24,
+        "kill_rate_or_escape": 27.66,
+        "name": "Mettle of Man",
+        "pick_rate": 0.33
+    },
+    {
+        "kill_rate_or_escape": 32.8,
+        "name": "Detective's Hunch",
+        "pick_rate": 0.32
+    },
+    {
+        "kill_rate_or_escape": 40.32,
+        "name": "Streetwise",
+        "pick_rate": 0.32
+    },
+    {
+        "kill_rate_or_escape": 32.26,
         "name": "Breakdown",
         "pick_rate": 0.32
     },
     {
-        "kill_rate_or_escape": 27.13,
-        "name": "Mettle of Man",
-        "pick_rate": 0.32
-    },
-    {
-        "kill_rate_or_escape": 32.97,
-        "name": "Detective's Hunch",
+        "kill_rate_or_escape": 33.7,
+        "name": "Mirrored Illusion",
         "pick_rate": 0.31
     },
     {
-        "kill_rate_or_escape": 35.63,
-        "name": "Parental Guidance",
-        "pick_rate": 0.3
+        "kill_rate_or_escape": 38.2,
+        "name": "Aftercare",
+        "pick_rate": 0.31
     },
     {
-        "kill_rate_or_escape": 42.29,
-        "name": "Still Sight",
-        "pick_rate": 0.3
-    },
-    {
-        "kill_rate_or_escape": 43.75,
+        "kill_rate_or_escape": 44.83,
         "name": "Change of Plan",
         "pick_rate": 0.3
     },
     {
-        "kill_rate_or_escape": 39.41,
-        "name": "Aftercare",
-        "pick_rate": 0.29
+        "kill_rate_or_escape": 35.67,
+        "name": "Parental Guidance",
+        "pick_rate": 0.3
     },
     {
-        "kill_rate_or_escape": 41.21,
+        "kill_rate_or_escape": 42.35,
+        "name": "Still Sight",
+        "pick_rate": 0.3
+    },
+    {
+        "kill_rate_or_escape": 41.88,
         "name": "Inner Focus",
         "pick_rate": 0.28
     },
     {
-        "kill_rate_or_escape": 37.5,
+        "kill_rate_or_escape": 36.31,
+        "name": "Hardened",
+        "pick_rate": 0.27
+    },
+    {
+        "kill_rate_or_escape": 36.67,
         "name": "Better Together",
         "pick_rate": 0.26
     },
     {
-        "kill_rate_or_escape": 42,
+        "kill_rate_or_escape": 42.07,
         "name": "Scavenger",
-        "pick_rate": 0.26
+        "pick_rate": 0.25
     },
     {
-        "kill_rate_or_escape": 37.01,
-        "name": "Hardened",
-        "pick_rate": 0.26
+        "kill_rate_or_escape": 39.16,
+        "name": "Low Profile",
+        "pick_rate": 0.25
     },
     {
-        "kill_rate_or_escape": 32.65,
+        "kill_rate_or_escape": 32.87,
         "name": "Lucky Star",
         "pick_rate": 0.25
     },
     {
-        "kill_rate_or_escape": 47.59,
+        "kill_rate_or_escape": 48.55,
         "name": "Blood Rush",
-        "pick_rate": 0.25
-    },
-    {
-        "kill_rate_or_escape": 39.57,
-        "name": "Low Profile",
         "pick_rate": 0.24
     },
     {
-        "kill_rate_or_escape": 33.58,
+        "kill_rate_or_escape": 32.85,
         "name": "Blood Pact",
-        "pick_rate": 0.23
+        "pick_rate": 0.24
     },
     {
-        "kill_rate_or_escape": 34.96,
+        "kill_rate_or_escape": 37.6,
+        "name": "Duty of Care",
+        "pick_rate": 0.22
+    },
+    {
+        "kill_rate_or_escape": 36.36,
         "name": "Repressed\u00a0Alliance",
         "pick_rate": 0.21
     },
     {
-        "kill_rate_or_escape": 35.48,
-        "name": "Duty of Care",
-        "pick_rate": 0.21
-    },
-    {
-        "kill_rate_or_escape": 35.05,
-        "name": "Rookie Spirit",
-        "pick_rate": 0.17
-    },
-    {
-        "kill_rate_or_escape": 32.35,
+        "kill_rate_or_escape": 32,
         "name": "Corrective Action",
         "pick_rate": 0.17
     },
     {
-        "kill_rate_or_escape": 30.77,
-        "name": "Teamwork: Throw Down",
+        "kill_rate_or_escape": 35.87,
+        "name": "Rookie Spirit",
         "pick_rate": 0.16
     },
     {
-        "kill_rate_or_escape": 35.79,
+        "kill_rate_or_escape": 36.17,
         "name": "Better Than New",
         "pick_rate": 0.16
     },
     {
-        "kill_rate_or_escape": 34.09,
+        "kill_rate_or_escape": 33.33,
         "name": "Up the Ante",
+        "pick_rate": 0.15
+    },
+    {
+        "kill_rate_or_escape": 30.68,
+        "name": "Teamwork: Throw Down",
+        "pick_rate": 0.15
+    },
+    {
+        "kill_rate_or_escape": 42.35,
+        "name": "Visionary",
         "pick_rate": 0.15
     },
     {
@@ -775,72 +780,67 @@
         "pick_rate": 0.14
     },
     {
-        "kill_rate_or_escape": 41.67,
-        "name": "Visionary",
-        "pick_rate": 0.14
-    },
-    {
-        "kill_rate_or_escape": 46.84,
-        "name": "Camaraderie",
-        "pick_rate": 0.14
-    },
-    {
-        "kill_rate_or_escape": 26.19,
+        "kill_rate_or_escape": 27.16,
         "name": "Deadline",
         "pick_rate": 0.14
     },
     {
-        "kill_rate_or_escape": 45.95,
-        "name": "Cut Loose",
-        "pick_rate": 0.13
-    },
-    {
-        "kill_rate_or_escape": 37.18,
+        "kill_rate_or_escape": 36.84,
         "name": "Red Herring",
         "pick_rate": 0.13
     },
     {
-        "kill_rate_or_escape": 35.29,
+        "kill_rate_or_escape": 48.05,
+        "name": "Camaraderie",
+        "pick_rate": 0.13
+    },
+    {
+        "kill_rate_or_escape": 47.95,
+        "name": "Cut Loose",
+        "pick_rate": 0.13
+    },
+    {
+        "kill_rate_or_escape": 35.82,
         "name": "Clean Break",
         "pick_rate": 0.12
     },
     {
-        "kill_rate_or_escape": 36.21,
+        "kill_rate_or_escape": 37.29,
         "name": "Moment of Glory",
         "pick_rate": 0.1
     },
     {
-        "kill_rate_or_escape": 32.14,
+        "kill_rate_or_escape": 33.93,
         "name": "Come and Get Me!",
         "pick_rate": 0.1
     },
     {
-        "kill_rate_or_escape": 37.25,
+        "kill_rate_or_escape": 36.73,
         "name": "Road Life",
         "pick_rate": 0.09
     },
     {
-        "kill_rate_or_escape": 56,
-        "name": "Rapid Response",
-        "pick_rate": 0.09
-    },
-    {
-        "kill_rate_or_escape": 38.89,
-        "name": "Buckle Up",
-        "pick_rate": 0.09
-    },
-    {
-        "kill_rate_or_escape": 35.29,
+        "kill_rate_or_escape": 34.69,
         "name": "Apocalyptic Ingenuity",
         "pick_rate": 0.09
     },
     {
-        "kill_rate_or_escape": 27.91,
+        "kill_rate_or_escape": 54.9,
+        "name": "Rapid Response",
+        "pick_rate": 0.09
+    },
+    {
+        "kill_rate_or_escape": 37.04,
+        "name": "Buckle Up",
+        "pick_rate": 0.09
+    },
+    {
+        "kill_rate_or_escape": 29.27,
         "name": "Teamwork: Collective Stealth",
         "pick_rate": 0.07
     },
     {
-        "kill_rate_or_escape": 43.24,
+        "kill_rate_or_escape": 42.86,
         "name": "Invocation: Treacherous Crows",
         "pick_rate": 0.06
     },
