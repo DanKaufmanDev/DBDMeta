@@ -2,42 +2,42 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Scourge Hook: Pain Resonance",
-        "pick_rate": 34.58
+        "pick_rate": 34.75
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Nowhere to Hide",
-        "pick_rate": 15.66
+        "pick_rate": 15.63
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Lethal Pursuer",
-        "pick_rate": 15.27
+        "pick_rate": 15.34
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Pop Goes the Weasel",
-        "pick_rate": 14.74
+        "pick_rate": 14.64
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Corrupt Intervention",
-        "pick_rate": 13.16
+        "pick_rate": 13.44
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Barbecue & Chili",
-        "pick_rate": 12.87
+        "pick_rate": 13.19
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Dead Man's Switch",
-        "pick_rate": 12.02
+        "pick_rate": 12.12
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Bamboozle",
-        "pick_rate": 11.89
+        "pick_rate": 11.9
     },
     {
         "kill_rate_or_escape": 0,
@@ -47,22 +47,22 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Brutal Strength",
-        "pick_rate": 9.91
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Eruption",
-        "pick_rate": 9.06
+        "pick_rate": 9.96
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Grim Embrace",
-        "pick_rate": 8.96
+        "pick_rate": 9.11
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Eruption",
+        "pick_rate": 9.05
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Ruin",
-        "pick_rate": 8.64
+        "pick_rate": 8.8
     },
     {
         "kill_rate_or_escape": 0,
@@ -72,77 +72,82 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Turn Back The Clock",
-        "pick_rate": 6.54
+        "pick_rate": 6.57
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: No One Escapes Death",
-        "pick_rate": 6.45
+        "pick_rate": 6.43
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Lightborn",
-        "pick_rate": 6.18
+        "pick_rate": 6.3
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Friends \u2018Til the End",
-        "pick_rate": 6.14
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Agitation",
-        "pick_rate": 5.54
+        "pick_rate": 6.21
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Sloppy Butcher",
-        "pick_rate": 5.49
+        "pick_rate": 5.52
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Agitation",
+        "pick_rate": 5.46
     },
     {
         "kill_rate_or_escape": 0,
         "name": "No Way Out",
-        "pick_rate": 5.35
+        "pick_rate": 5.3
     },
     {
         "kill_rate_or_escape": 0,
         "name": "A Nurse's Calling",
-        "pick_rate": 5.19
+        "pick_rate": 5.24
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Enduring",
-        "pick_rate": 5.1
+        "pick_rate": 5.09
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Thrilling Tremors",
-        "pick_rate": 5.08
+        "pick_rate": 5.02
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Plaything",
-        "pick_rate": 4.8
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "I'm All Ears",
-        "pick_rate": 3.71
+        "pick_rate": 4.74
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Phantom Fear",
-        "pick_rate": 3.67
+        "pick_rate": 3.64
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Discordance",
-        "pick_rate": 3.5
+        "name": "I'm All Ears",
+        "pick_rate": 3.63
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Undying",
-        "pick_rate": 3.5
+        "pick_rate": 3.54
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Discordance",
+        "pick_rate": 3.48
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Rapid Brutality",
+        "pick_rate": 3.3
     },
     {
         "kill_rate_or_escape": 0,
@@ -156,48 +161,43 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Rapid Brutality",
-        "pick_rate": 3.19
-    },
-    {
-        "kill_rate_or_escape": 0,
         "name": "Save the best for last",
-        "pick_rate": 3.05
+        "pick_rate": 3.12
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Blood Favor",
-        "pick_rate": 2.88
+        "pick_rate": 2.93
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Iron Grasp",
-        "pick_rate": 2.86
+        "pick_rate": 2.82
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Secret Project",
-        "pick_rate": 2.74
+        "pick_rate": 2.72
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Devour Hope",
-        "pick_rate": 2.71
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Darkness Revealed",
-        "pick_rate": 2.62
+        "pick_rate": 2.67
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Fire Up",
-        "pick_rate": 2.62
+        "pick_rate": 2.63
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Infectious Fright",
         "pick_rate": 2.61
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Darkness Revealed",
+        "pick_rate": 2.57
     },
     {
         "kill_rate_or_escape": 0,
@@ -207,61 +207,61 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Thrill of the Hunt",
-        "pick_rate": 2.48
+        "pick_rate": 2.49
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Tinkerer",
-        "pick_rate": 2.42
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Forever Entwined",
-        "pick_rate": 2.4
+        "pick_rate": 2.46
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Batteries Included",
-        "pick_rate": 2.38
+        "pick_rate": 2.43
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Forever Entwined",
+        "pick_rate": 2.36
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Spirit Fury",
-        "pick_rate": 2.37
+        "pick_rate": 2.29
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Play With Your Food",
-        "pick_rate": 2.22
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Furtive Chase",
         "pick_rate": 2.2
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Blood Warden",
-        "pick_rate": 2.15
+        "name": "Furtive Chase",
+        "pick_rate": 2.19
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Starstruck",
-        "pick_rate": 2.15
+        "name": "Blood Warden",
+        "pick_rate": 2.1
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Trail of Torment",
-        "pick_rate": 2.07
+        "pick_rate": 2.03
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Mindbreaker",
-        "pick_rate": 2.01
+        "pick_rate": 1.99
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Scourge Hook: Floods of Rage",
+        "pick_rate": 1.96
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Starstruck",
         "pick_rate": 1.96
     },
     {
@@ -271,13 +271,13 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Unforeseen",
-        "pick_rate": 1.84
+        "name": "Bitter Murmur",
+        "pick_rate": 1.87
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Bitter Murmur",
-        "pick_rate": 1.83
+        "name": "Unforeseen",
+        "pick_rate": 1.77
     },
     {
         "kill_rate_or_escape": 0,
@@ -287,22 +287,27 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Franklin's Demise",
-        "pick_rate": 1.65
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Oppression",
-        "pick_rate": 1.64
+        "pick_rate": 1.68
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Dissolution",
-        "pick_rate": 1.64
+        "pick_rate": 1.65
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Hex: Pentimento",
+        "pick_rate": 1.61
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Oppression",
+        "pick_rate": 1.61
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Overcharge",
-        "pick_rate": 1.63
+        "pick_rate": 1.6
     },
     {
         "kill_rate_or_escape": 0,
@@ -311,28 +316,23 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Hex: Pentimento",
-        "pick_rate": 1.59
-    },
-    {
-        "kill_rate_or_escape": 0,
         "name": "Deerstalker",
-        "pick_rate": 1.53
+        "pick_rate": 1.56
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Iron Maiden",
-        "pick_rate": 1.53
+        "pick_rate": 1.5
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Superior Anatomy",
-        "pick_rate": 1.48
+        "pick_rate": 1.46
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Coulrophobia",
-        "pick_rate": 1.42
+        "pick_rate": 1.4
     },
     {
         "kill_rate_or_escape": 0,
@@ -341,17 +341,17 @@
     },
     {
         "kill_rate_or_escape": 0,
+        "name": "Remember Me",
+        "pick_rate": 1.36
+    },
+    {
+        "kill_rate_or_escape": 0,
         "name": "Distressing",
-        "pick_rate": 1.35
+        "pick_rate": 1.36
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Coup de Grace",
-        "pick_rate": 1.34
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Remember Me",
         "pick_rate": 1.34
     },
     {
@@ -361,58 +361,53 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Gearhead",
-        "pick_rate": 1.26
-    },
-    {
-        "kill_rate_or_escape": 0,
         "name": "Alien Instinct",
         "pick_rate": 1.24
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Hex: Crowd Control",
-        "pick_rate": 1.16
+        "name": "Gearhead",
+        "pick_rate": 1.23
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Face the Darkness",
-        "pick_rate": 1.15
+        "pick_rate": 1.16
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Nemesis",
-        "pick_rate": 1.1
+        "pick_rate": 1.12
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hubris",
-        "pick_rate": 1.08
+        "pick_rate": 1.06
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Machine Learning",
-        "pick_rate": 1.01
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Scourge Hook: Monstrous Shrine",
-        "pick_rate": 1.01
+        "name": "Hex: Crowd Control",
+        "pick_rate": 1.04
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Predator",
-        "pick_rate": 0.97
+        "pick_rate": 0.99
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Merciless Storm",
-        "pick_rate": 0.97
+        "name": "Scourge Hook: Monstrous Shrine",
+        "pick_rate": 0.98
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Scourge Hook: Jagged Compass",
-        "pick_rate": 0.97
+        "name": "Hex: Haunted Ground",
+        "pick_rate": 0.98
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Machine Learning",
+        "pick_rate": 0.96
     },
     {
         "kill_rate_or_escape": 0,
@@ -421,28 +416,28 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Rancor",
-        "pick_rate": 0.92
+        "name": "Merciless Storm",
+        "pick_rate": 0.93
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Hex: Haunted Ground",
-        "pick_rate": 0.91
+        "name": "Scourge Hook: Jagged Compass",
+        "pick_rate": 0.93
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Rancor",
+        "pick_rate": 0.93
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Weave Attunement",
-        "pick_rate": 0.91
+        "pick_rate": 0.92
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Surveillance",
-        "pick_rate": 0.88
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Awakened Awareness",
-        "pick_rate": 0.86
+        "pick_rate": 0.91
     },
     {
         "kill_rate_or_escape": 0,
@@ -452,12 +447,12 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Mad Grit",
-        "pick_rate": 0.79
+        "pick_rate": 0.83
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Unnerving Presence",
-        "pick_rate": 0.77
+        "pick_rate": 0.76
     },
     {
         "kill_rate_or_escape": 0,
@@ -466,32 +461,37 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Hex: Huntress Lullaby",
-        "pick_rate": 0.74
+        "name": "Awakened Awareness",
+        "pick_rate": 0.76
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Insidious",
-        "pick_rate": 0.74
+        "pick_rate": 0.75
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Terminus",
-        "pick_rate": 0.71
+        "name": "Hex: Huntress Lullaby",
+        "pick_rate": 0.72
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Dark Arrogance",
-        "pick_rate": 0.68
+        "pick_rate": 0.71
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Monitor & Abuse",
-        "pick_rate": 0.67
+        "name": "Terminus",
+        "pick_rate": 0.7
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: The Third Seal",
+        "pick_rate": 0.67
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Monitor & Abuse",
         "pick_rate": 0.67
     },
     {
@@ -501,28 +501,28 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "THWACK!",
-        "pick_rate": 0.58
-    },
-    {
-        "kill_rate_or_escape": 0,
         "name": "Leverage",
-        "pick_rate": 0.57
+        "pick_rate": 0.56
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Hysteria",
-        "pick_rate": 0.57
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Zanshin Tactics",
+        "name": "THWACK!",
         "pick_rate": 0.55
     },
     {
         "kill_rate_or_escape": 0,
+        "name": "Hysteria",
+        "pick_rate": 0.54
+    },
+    {
+        "kill_rate_or_escape": 0,
         "name": "Hex: Retribution",
-        "pick_rate": 0.51
+        "pick_rate": 0.54
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Zanshin Tactics",
+        "pick_rate": 0.53
     },
     {
         "kill_rate_or_escape": 0,
@@ -532,32 +532,32 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Haywire",
-        "pick_rate": 0.45
+        "pick_rate": 0.44
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Unbound",
-        "pick_rate": 0.43
+        "name": "Languid Touch",
+        "pick_rate": 0.42
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Whispers",
+        "name": "Hex: Nothing But Misery",
         "pick_rate": 0.42
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Blood Echo",
+        "pick_rate": 0.41
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Unbound",
         "pick_rate": 0.4
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Languid Touch",
-        "pick_rate": 0.4
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Hex: Nothing But Misery",
-        "pick_rate": 0.38
+        "name": "Whispers",
+        "pick_rate": 0.39
     },
     {
         "kill_rate_or_escape": 0,
@@ -567,12 +567,7 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Knock Out",
-        "pick_rate": 0.36
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Game Afoot",
-        "pick_rate": 0.35
+        "pick_rate": 0.33
     },
     {
         "kill_rate_or_escape": 0,
@@ -582,11 +577,21 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Stridor",
-        "pick_rate": 0.32
+        "pick_rate": 0.33
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Game Afoot",
+        "pick_rate": 0.33
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Two Can Play",
+        "pick_rate": 0.31
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Cruel Limits",
         "pick_rate": 0.3
     },
     {
@@ -601,33 +606,28 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Cruel Limits",
-        "pick_rate": 0.29
-    },
-    {
-        "kill_rate_or_escape": 0,
         "name": "Hex: Wretched Fate",
         "pick_rate": 0.29
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "None Are Free",
-        "pick_rate": 0.29
-    },
-    {
-        "kill_rate_or_escape": 0,
         "name": "Ravenous",
-        "pick_rate": 0.28
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Deathbound",
         "pick_rate": 0.27
     },
     {
         "kill_rate_or_escape": 0,
+        "name": "None Are Free",
+        "pick_rate": 0.27
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Deathbound",
+        "pick_rate": 0.24
+    },
+    {
+        "kill_rate_or_escape": 0,
         "name": "Bloodhound",
-        "pick_rate": 0.23
+        "pick_rate": 0.24
     },
     {
         "kill_rate_or_escape": 0,
@@ -636,13 +636,13 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Genetic Limits",
+        "name": "Scourge Hook: Hangman's Trick",
         "pick_rate": 0.18
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Scourge Hook: Hangman's Trick",
-        "pick_rate": 0.17
+        "name": "Genetic Limits",
+        "pick_rate": 0.18
     },
     {
         "kill_rate_or_escape": 0,
@@ -651,13 +651,8 @@
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "No Quarter",
-        "pick_rate": 0.16
-    },
-    {
-        "kill_rate_or_escape": 0,
-        "name": "Wandering Eye",
-        "pick_rate": 0.16
+        "name": "Shattered Hope",
+        "pick_rate": 0.17
     },
     {
         "kill_rate_or_escape": 0,
@@ -667,22 +662,27 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Territorial Imperative",
-        "pick_rate": 0.15
+        "pick_rate": 0.16
     },
     {
         "kill_rate_or_escape": 0,
-        "name": "Shattered Hope",
-        "pick_rate": 0.15
+        "name": "No Quarter",
+        "pick_rate": 0.16
+    },
+    {
+        "kill_rate_or_escape": 0,
+        "name": "Wandering Eye",
+        "pick_rate": 0.14
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Hex: Overture of Doom",
-        "pick_rate": 0.15
+        "pick_rate": 0.14
     },
     {
         "kill_rate_or_escape": 0,
         "name": "Undone",
-        "pick_rate": 0.14
+        "pick_rate": 0.13
     },
     {
         "kill_rate_or_escape": 0,
@@ -692,6 +692,6 @@
     {
         "kill_rate_or_escape": 0,
         "name": "Hoarder",
-        "pick_rate": 0.1
+        "pick_rate": 0.09
     }
 ]
