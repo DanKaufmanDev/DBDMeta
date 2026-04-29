@@ -1,212 +1,212 @@
 [
     {
-        "kill_rate_or_escape": 47.25,
+        "kill_rate_or_escape": 47,
         "name": "The Mastermind",
-        "pick_rate": 5.69
+        "pick_rate": 5.78
     },
     {
-        "kill_rate_or_escape": 48.4,
+        "kill_rate_or_escape": 49.08,
         "name": "The Ghoul",
-        "pick_rate": 5.37
+        "pick_rate": 5.34
     },
     {
-        "kill_rate_or_escape": 50.93,
+        "kill_rate_or_escape": 51.14,
         "name": "The Blight",
-        "pick_rate": 5.21
+        "pick_rate": 5.08
     },
     {
-        "kill_rate_or_escape": 46.76,
+        "kill_rate_or_escape": 46.52,
         "name": "The Animatronic",
-        "pick_rate": 4.83
+        "pick_rate": 4.87
     },
     {
-        "kill_rate_or_escape": 47.18,
+        "kill_rate_or_escape": 46.55,
         "name": "The Trickster",
-        "pick_rate": 4.22
+        "pick_rate": 4.17
     },
     {
-        "kill_rate_or_escape": 48.12,
+        "kill_rate_or_escape": 48.13,
         "name": "The Spirit",
-        "pick_rate": 3.64
+        "pick_rate": 3.67
     },
     {
-        "kill_rate_or_escape": 42.24,
+        "kill_rate_or_escape": 42.04,
         "name": "The Huntress",
-        "pick_rate": 3.58
+        "pick_rate": 3.61
     },
     {
-        "kill_rate_or_escape": 48.25,
+        "kill_rate_or_escape": 48.56,
         "name": "The Shape",
-        "pick_rate": 3.4
+        "pick_rate": 3.41
     },
     {
-        "kill_rate_or_escape": 46.76,
+        "kill_rate_or_escape": 46.69,
         "name": "The Nemesis",
-        "pick_rate": 3.4
+        "pick_rate": 3.37
     },
     {
-        "kill_rate_or_escape": 52.82,
+        "kill_rate_or_escape": 52.97,
         "name": "The Hillbilly",
-        "pick_rate": 3.28
+        "pick_rate": 3.25
     },
     {
-        "kill_rate_or_escape": 49.66,
+        "kill_rate_or_escape": 49.67,
         "name": "The First",
-        "pick_rate": 3.24
+        "pick_rate": 3.23
     },
     {
-        "kill_rate_or_escape": 46.56,
+        "kill_rate_or_escape": 46.87,
         "name": "The Nurse",
-        "pick_rate": 3.2
+        "pick_rate": 3.22
     },
     {
-        "kill_rate_or_escape": 43.52,
+        "kill_rate_or_escape": 44.02,
         "name": "The Ghostface",
-        "pick_rate": 3.13
+        "pick_rate": 3.16
     },
     {
-        "kill_rate_or_escape": 46.91,
+        "kill_rate_or_escape": 46.49,
         "name": "The Deathslinger",
-        "pick_rate": 3
+        "pick_rate": 2.99
     },
     {
-        "kill_rate_or_escape": 48.02,
+        "kill_rate_or_escape": 48.76,
         "name": "The Trapper",
-        "pick_rate": 2.9
+        "pick_rate": 2.93
     },
     {
-        "kill_rate_or_escape": 45.89,
+        "kill_rate_or_escape": 46.1,
         "name": "The Cannibal",
-        "pick_rate": 2.52
+        "pick_rate": 2.53
     },
     {
-        "kill_rate_or_escape": 50,
+        "kill_rate_or_escape": 50.92,
         "name": "The Oni",
-        "pick_rate": 2.34
+        "pick_rate": 2.33
     },
     {
-        "kill_rate_or_escape": 40.53,
+        "kill_rate_or_escape": 41.7,
         "name": "The Wraith",
-        "pick_rate": 2.26
+        "pick_rate": 2.3
     },
     {
-        "kill_rate_or_escape": 48.78,
+        "kill_rate_or_escape": 49.51,
         "name": "The Dark Lord",
         "pick_rate": 2.17
     },
     {
-        "kill_rate_or_escape": 49.49,
-        "name": "The Pig",
-        "pick_rate": 2.14
-    },
-    {
-        "kill_rate_or_escape": 46.61,
+        "kill_rate_or_escape": 46.07,
         "name": "The Knight",
         "pick_rate": 2.08
     },
     {
-        "kill_rate_or_escape": 55.31,
-        "name": "The Lich",
-        "pick_rate": 1.99
+        "kill_rate_or_escape": 49.59,
+        "name": "The Pig",
+        "pick_rate": 2.08
     },
     {
-        "kill_rate_or_escape": 43.22,
+        "kill_rate_or_escape": 42.81,
         "name": "The Doctor",
-        "pick_rate": 1.98
+        "pick_rate": 2.06
     },
     {
-        "kill_rate_or_escape": 39.39,
+        "kill_rate_or_escape": 55.13,
+        "name": "The Lich",
+        "pick_rate": 2.01
+    },
+    {
+        "kill_rate_or_escape": 39.72,
         "name": "The Good Guy",
-        "pick_rate": 1.81
+        "pick_rate": 1.84
     },
     {
-        "kill_rate_or_escape": 46.67,
+        "kill_rate_or_escape": 46.32,
         "name": "The Onry\u014d",
+        "pick_rate": 1.75
+    },
+    {
+        "kill_rate_or_escape": 46.77,
+        "name": "The Clown",
         "pick_rate": 1.72
     },
     {
-        "kill_rate_or_escape": 46.48,
-        "name": "The Clown",
-        "pick_rate": 1.69
-    },
-    {
-        "kill_rate_or_escape": 53.28,
-        "name": "The Nightmare",
-        "pick_rate": 1.61
-    },
-    {
-        "kill_rate_or_escape": 45.58,
-        "name": "The Dredge",
-        "pick_rate": 1.6
-    },
-    {
-        "kill_rate_or_escape": 42.99,
-        "name": "The Unknown",
-        "pick_rate": 1.6
-    },
-    {
-        "kill_rate_or_escape": 50.98,
+        "kill_rate_or_escape": 50.54,
         "name": "The Plague",
+        "pick_rate": 1.6
+    },
+    {
+        "kill_rate_or_escape": 53.61,
+        "name": "The Nightmare",
+        "pick_rate": 1.6
+    },
+    {
+        "kill_rate_or_escape": 44.02,
+        "name": "The Unknown",
+        "pick_rate": 1.58
+    },
+    {
+        "kill_rate_or_escape": 42.08,
+        "name": "The Executioner",
         "pick_rate": 1.57
     },
     {
-        "kill_rate_or_escape": 42.47,
-        "name": "The Executioner",
-        "pick_rate": 1.55
+        "kill_rate_or_escape": 46.02,
+        "name": "The Dredge",
+        "pick_rate": 1.56
     },
     {
-        "kill_rate_or_escape": 45.26,
+        "kill_rate_or_escape": 46.25,
         "name": "The Krasue",
-        "pick_rate": 1.53
+        "pick_rate": 1.54
     },
     {
-        "kill_rate_or_escape": 45.63,
+        "kill_rate_or_escape": 46.75,
         "name": "The Xenomorph",
-        "pick_rate": 1.41
+        "pick_rate": 1.45
     },
     {
-        "kill_rate_or_escape": 46.29,
+        "kill_rate_or_escape": 46.1,
         "name": "The Singularity",
-        "pick_rate": 1.37
+        "pick_rate": 1.32
     },
     {
-        "kill_rate_or_escape": 44.75,
+        "kill_rate_or_escape": 46.65,
         "name": "The Demogorgon",
         "pick_rate": 1.22
     },
     {
-        "kill_rate_or_escape": 50.19,
+        "kill_rate_or_escape": 50.37,
         "name": "The Artist",
-        "pick_rate": 1.17
+        "pick_rate": 1.15
     },
     {
-        "kill_rate_or_escape": 49.78,
+        "kill_rate_or_escape": 49.58,
         "name": "The Houndmaster",
-        "pick_rate": 1
+        "pick_rate": 1.01
     },
     {
-        "kill_rate_or_escape": 49.34,
+        "kill_rate_or_escape": 49.15,
         "name": "The Cenobite",
-        "pick_rate": 1
+        "pick_rate": 1.01
     },
     {
         "kill_rate_or_escape": 42.66,
         "name": "The Skull Merchant",
-        "pick_rate": 0.81
-    },
-    {
-        "kill_rate_or_escape": 50.28,
-        "name": "The Twins",
         "pick_rate": 0.79
     },
     {
-        "kill_rate_or_escape": 41.85,
-        "name": "The Hag",
-        "pick_rate": 0.78
+        "kill_rate_or_escape": 50.56,
+        "name": "The Twins",
+        "pick_rate": 0.77
     },
     {
-        "kill_rate_or_escape": 55.95,
+        "kill_rate_or_escape": 41.57,
+        "name": "The Hag",
+        "pick_rate": 0.74
+    },
+    {
+        "kill_rate_or_escape": 62.5,
         "name": "The Legion",
-        "pick_rate": 0.19
+        "pick_rate": 0.12
     }
 ]
